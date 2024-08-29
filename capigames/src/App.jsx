@@ -1,9 +1,10 @@
+import { Pepe } from "./pepe"
 
 function App() {
 
   return (
     <>
-      <h1>xd</h1>
+     <Pepe/>
     </>
   )
 }
