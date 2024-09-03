@@ -1,9 +1,9 @@
-
+import { Menu } from './components/Menu/menu'
 function App() {
 
   return (
     <>
-      <h1>xd</h1>
+    <Menu/>
     </>
   )
 }
