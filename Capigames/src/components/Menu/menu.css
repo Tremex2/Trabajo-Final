@@ -1,13 +1,56 @@
-
+@keyframes color {
+    0%{
+      color: rgb(114, 12, 210);
+      text-shadow: 0px 0px 5px rgb(114, 12, 210);
+    }
+    25%{
+        color: rgb(24, 252, 252);
+        text-shadow: 0px 0px 15px rgb(24, 252, 252);
+    }
+    50%{
+         color: rgb(255, 255, 78);
+         text-shadow: 0px 0px 25px,0px 0px 25px,0px 0px 25px,0px 0px 25px rgb(255, 255, 78);
+    }
+    75%{
+        color: rgb(24, 252, 252);
+        text-shadow: 0px 0px 15px rgb(24, 252, 252);
+    }
+    100%{
+        color: rgb(114, 12, 210);
+        text-shadow: 0px 0px 5px rgb(114, 12, 210);
+    }
+}
+@keyframes colorRetrasado {
+    0%{
+      color: rgb(114, 12, 210);
+      text-shadow: 0px 0px 5px rgb(114, 12, 210);
+    }
+    40%{
+        color: rgb(24, 252, 252);
+        text-shadow: 0px 0px 15px rgb(24, 252, 252);
+    }
+    70%{
+         color: rgb(255, 255, 78);
+         text-shadow: 0px 0px 25px,0px 0px 25px,0px 0px 25px,0px 0px 25px rgb(255, 255, 78);
+    }
+    90%{
+        color: rgb(24, 252, 252);
+        text-shadow: 0px 0px 15px rgb(24, 252, 252);
+    }
+    100%{
+        color: rgb(114, 12, 210);
+        text-shadow: 0px 0px 5px rgb(114, 12, 210);
+    }
+}
 *{
     margin: 0px;
 }
 .derecha{
     border-radius: 2px;
     height: 100vh;
-    width: 30%;
+    width: 25%;
     text-align: left;
-    background-color: gray;
+    background-color: black;
     transition: 1s;
     position: fixed;
 }
@@ -17,25 +60,38 @@
     height: 40px;
     width: 40px;
     position: relative;
-    background-color: red;
+    background-color: black;
     position: fixed;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }
-.barra{
+.barra1{
     width: 25px;
     height: 5px;
-    background-color: white;
+    background-color: rgb(114, 12, 210);
+    margin: 2px;
+}
+.barra2{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(24, 252, 252);
+    margin: 2px;
+}
+.barra3{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(255, 255, 78);
     margin: 2px;
 }
 .izquierda{
     border-radius: 2px;
     height: 100vh;
-    width: 30%;
+    width: 25%;
     text-align: left;
-    background-color: gray;
+    background-color: black;
     transition: 1s;
-    margin-left: -30%;
+    margin-left: -25%;
     position: fixed;
 }
 .menu{
@@ -43,10 +99,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: colorRetrasado 3s infinite;
 }
 .opcion{
     height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;    
+    margin-top: 3px;
+    margin-bottom: 3px;
+    animation: color 3s infinite;
+}
+.boton-menu-cerrar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: colorRetrasado 3s infinite;
 }
