@@ -1,10 +1,9 @@
-import { useState } from 'react'
-
+import { Menu } from './components/Menu/menu'
 function App() {
 
   return (
     <>
-    
+    <Menu/>
     </>
   )
 }

@@ -1,0 +1,52 @@
+
+*{
+    margin: 0px;
+}
+.derecha{
+    border-radius: 2px;
+    height: 100vh;
+    width: 30%;
+    text-align: left;
+    background-color: gray;
+    transition: 1s;
+    position: fixed;
+}
+.boton-menu{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    background-color: red;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.barra{
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    margin: 2px;
+}
+.izquierda{
+    border-radius: 2px;
+    height: 100vh;
+    width: 30%;
+    text-align: left;
+    background-color: gray;
+    transition: 1s;
+    margin-left: -30%;
+    position: fixed;
+}
+.menu{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opcion{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
