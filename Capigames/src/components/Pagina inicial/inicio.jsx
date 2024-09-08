@@ -9,11 +9,11 @@ export function Inicio() {
                 <h1>Tags</h1>
             </div>
             <nav className="caja-tags">
-                <NavLink className="tag" to={"/pagina-1"}>
+                <NavLink className="tag" to={"/pagina-1/accion"}>
                    <h2>Accion</h2>
                 </NavLink>
                 <NavLink className="tag" to={"/pagina-2"}>
-                <h2>terror psicologico</h2>
+                <h2>terror</h2>
                 </NavLink>
                 <NavLink className="tag" to={"/pagina-3"}>
                  <h2>primera persona</h2>
