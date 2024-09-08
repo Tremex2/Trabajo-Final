@@ -1,6 +1,7 @@
 import { Inicio } from "../Pagina inicial/inicio";
 import "../Cards/card.css"
 import jsonData from "./juegosAccion1.json"
+import "../"
 export function Pagina1Accion() {
     const gta = jsonData.GTA 
     return(
@@ -33,7 +34,7 @@ export function Pagina1Accion() {
             <div className="titulo"></div>
             </div>
             <div className="card">
-            <img src={gta.imagen} alt="" />
+            <img src="" alt="no image" />
             <div className="titulo"><h4>{gta.titulo}</h4></div>
             </div>
         </div>
