@@ -18,11 +18,13 @@ align-items: center;
     padding: 7px;
     border-radius: 2px;
     color: white;
+    text-decoration: none ;
 }
 .active{
     background-color: white;
     color: gray;
     border: gray;
+    text-decoration: underline;
 }
 .titulo{
     margin: 10px;
