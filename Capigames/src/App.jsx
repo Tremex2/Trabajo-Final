@@ -1,7 +1,7 @@
 import { Inicio } from './components/Pagina inicial/inicio'
 import {BrowserRouter, Routes ,Route} from "react-router-dom"
 import { Menu } from './components/Menu/menu'
-import { Pagina1 } from './components/pagina 1/pagina1'
+import { Pagina1Accion } from './components/pagina-1-accion/pagina1accion'
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
     <Menu/>
     <Routes>
       <Route path='/' element={<Inicio/>}></Route>
-      <Route path='/pagina-1' element={<Pagina1/>}></Route>
+      <Route path='/pagina-1/accion' element={<Pagina1Accion/>}></Route>
     </Routes>
     </BrowserRouter>
     </>

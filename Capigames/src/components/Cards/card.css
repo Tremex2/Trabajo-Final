@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.grid {
+    height: 20vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center; 
+    justify-items: center; 
+    gap: 1px; 
+}
+.card {
+    height: 20vh;
+    width: 20vw;
+    margin-bottom: 15px; 
+    margin-top: 5px;
+    background-color: rgb(50, 47, 47);
+    border: 2px solid black;
+}
+.titulo{
+    color: white;
+}
