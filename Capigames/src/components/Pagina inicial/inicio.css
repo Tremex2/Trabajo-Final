@@ -33,6 +33,11 @@ font-family: Ubuntu-light-italic;
     font-family: Ubuntu;
     font-style: italic;
 }
+.active{
+    background-color: white;
+    color: gray;
+    border: gray;
+}
 .titulo{
     margin: 10px;
     color: rgb(255, 255, 255);
