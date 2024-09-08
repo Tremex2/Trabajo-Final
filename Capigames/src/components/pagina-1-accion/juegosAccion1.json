@@ -1,6 +1,6 @@
 {
     "GTA": {
         "titulo": "GTA 5",
-        "imagen": "../../images/pollo.gif"
+        "imagen": "../../public/images/gta5.jpg"
 }
 }
