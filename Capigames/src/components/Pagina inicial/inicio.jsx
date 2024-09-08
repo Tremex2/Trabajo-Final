@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import "./inicio.css"
 
 export function Inicio() {
@@ -7,23 +8,23 @@ export function Inicio() {
             <div className="titulo" id="titulo">
                 <h1>Tags</h1>
             </div>
-            <div className="caja-tags">
-                <div className="tag">
+            <nav className="caja-tags">
+                <NavLink className="tag" to={"/pagina-1"}>
                    <h2>Accion</h2>
-                </div>
-                <div className="tag">
+                </NavLink>
+                <NavLink className="tag" to={"/pagina-2"}>
                 <h2>terror psicologico</h2>
-                </div>
-                <div className="tag">
+                </NavLink>
+                <NavLink className="tag" to={"/pagina-3"}>
                  <h2>primera persona</h2>
-                </div>
-                <div className="tag">
+                </NavLink>
+                <NavLink className="tag" to={"/pagina-4"}>
                   <h2>2D</h2>
-                </div>
-                <div className="tag">
+                </NavLink>
+                <NavLink className="tag" to={"/pagina-5"}>
                    <h2>corto</h2>
-                </div>
-            </div>
+                </NavLink>
+            </nav>
         </div>
         </>
     )
