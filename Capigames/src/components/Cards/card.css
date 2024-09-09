@@ -30,9 +30,27 @@
     margin: 1px;
     text-align: center;
     text-decoration: underline;
+    font-family: Ubuntu-italic;
+    font-size:x-large;
 }
 .image{
     width: 100%;
     height: 80%;
     margin: 0px;
+}
+@font-face {
+    font-family: Ubuntu-italic;
+    src: url(../../fonts/Ubuntu/Ubuntu-Italic.ttf);
+}
+@font-face {
+    font-family: Ubuntu-bold;
+    src: url(../../fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: Ubuntu-light;
+    src: url(../../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: Jost;
+    src: url(../../fonts/Jost-Italic-VariableFont_wght.ttf);
 }
