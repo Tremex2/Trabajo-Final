@@ -6,6 +6,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+font-style: oblique;
+font-family: Ubuntu-light-italic;
 }
 .caja-tags{
     display: flex;
@@ -19,18 +21,38 @@ align-items: center;
     border-radius: 2px;
     color: white;
     text-decoration: none ;
+    font-family: Ubuntu;
 }
 .active{
     background-color: white;
     color: gray;
     border: solid 2px gray;
     text-decoration: underline;
+    font-family: Ubuntu;
+    font-style: italic;
 }
 .titulo{
     margin: 10px;
     color: white;
+    font-family: Ubuntu-light-italic !important;
 }
 .tag:hover{
     box-shadow: 0px 0px 5px white,0px 0px 5px white,0px 0px 5px white;
     transition: 1s;
+}
+@font-face {
+    font-family: Jost;
+    src: url(../../fonts/Jost-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Jost-1;
+    src: url(../../fonts/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(../../fonts/Ubuntu);
+}
+@font-face {
+    font-family: Ubuntu-light-italic;
+    src: url(../../fonts/Ubuntu/Ubuntu-LightItalic.ttf);
 }
