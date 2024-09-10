@@ -28,23 +28,23 @@ export function Pagina1Accion() {
             </div>
             <div className="card">
             <img src={cyberpunk} alt="" className="image" />
-            <div className="titulo"><h4>cyberpunk 2077</h4></div>
+            <div className="titulo"><h4>Cyberpunk 2077</h4></div>
             </div>
             <div className="card">
             <img src={darksouls} alt="" className="image" />
-            <div className="titulo"><h4>dark souls</h4></div>
+            <div className="titulo"><h4>Dark souls</h4></div>
             </div>
             <div className="card">
             <img src={doom} alt="" className="image" />
-            <div className="titulo"><h4>doom eternal</h4></div>
+            <div className="titulo"><h4>Doom eternal</h4></div>
             </div>
             <div className="card">
             <img src={tlou} alt="" className="image" />
-            <div className="titulo"><h4>the last of us</h4></div>
+            <div className="titulo"><h4>The last of us</h4></div>
             </div>
             <div className="card">
             <img src={tlou2} alt="" className="image" />
-            <div className="titulo"><h4>the last of us 2</h4></div>
+            <div className="titulo"><h4>The last of us 2</h4></div>
             </div>
             <div className="card">
             <img src={ultrakill} alt="" className="image" />
