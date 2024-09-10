@@ -1,5 +1,14 @@
 import { Inicio } from "../Pagina inicial/inicio"
 import "../Cards/card.css"
+import celeste from "../../public/2D/celeste.jpg"
+import holllowKnight from "../../public/2D/hollow-knight.jpg"
+import hotline2 from "../../public/2D/hotline-miami-II.jpg"
+import hotline from "../../public/2D/hotline-miami.png"
+import mario from "../../public/2D/mario.jpg"
+import silksong from "../../public/2D/silksong.jpg"
+import stardew from "../../public/2D/stardew.jpg"
+import terraria from "../../public/2D/terraria.jpg"
+import undertale from "../../public/2D/undertale.jpg"
 
 export function SD1() {
     return(
@@ -8,40 +17,40 @@ export function SD1() {
        <div className="container">
         <div className="grid">
             <div className="card">
-            <img src="" alt="" className="image" />
-            <div className="titulo"><h4>Red Dead Redemption II</h4></div>
+            <img src={celeste} alt="" className="image" />
+            <div className="titulo"><h4>Celeste</h4></div>
             </div>
             <div className="card">
-            <img src="" alt="" className="image" />
-            <div className="titulo"><h4>CodeVein</h4></div>
+            <img src={holllowKnight} alt="" className="image" />
+            <div className="titulo"><h4>Hollow Knight</h4></div>
             </div>
             <div className="card">
-            <img src="" alt="" className="image" />
-            <div className="titulo"><h4>cyberpunk 2077</h4></div>
+            <img src={hotline2} alt="" className="image" />
+            <div className="titulo"><h4>Hotline Miami II</h4></div>
             </div>
             <div className="card">
-            <img src="" alt="" className="image" />
-            <div className="titulo"><h4>dark souls</h4></div>
+            <img src={hotline} alt="" className="image" />
+            <div className="titulo"><h4>Hotline Miami</h4></div>
             </div>
             <div className="card">
-            <img src="" alt="" className="image" />
-            <div className="titulo"><h4>doom eternal</h4></div>
+            <img src={mario} alt="" className="image" />
+            <div className="titulo"><h4>Mario Bros</h4></div>
             </div>
             <div className="card">
-            <img src="" alt="" className="image" />
-            <div className="titulo"><h4>the last of us</h4></div>
+            <img src={silksong} alt="" className="image" />
+            <div className="titulo"><h4>Silksong</h4></div>
             </div>
             <div className="card">
-            <img src="" alt="" className="image" />
-            <div className="titulo"><h4>the last of us 2</h4></div>
+            <img src={stardew} alt="" className="image" />
+            <div className="titulo"><h4>Stardew Valley</h4></div>
             </div>
             <div className="card">
-            <img src="" alt="" className="image" />
-            <div className="titulo"><h4>Ultrakill</h4></div>
+            <img src={terraria} alt="" className="image" />
+            <div className="titulo"><h4>Terraria</h4></div>
             </div>
             <div className="card">
-            <img src="" alt="" className="image" />
-            <div className="titulo"><h4>gta</h4></div>
+            <img src={undertale} alt="" className="image" />
+            <div className="titulo"><h4>Undertale</h4></div>
             </div>
         </div>
         </div>
