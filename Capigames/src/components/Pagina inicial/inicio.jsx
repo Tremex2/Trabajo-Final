@@ -9,19 +9,19 @@ export function Inicio() {
                 <h1>Tags</h1>
             </div>
             <nav className="caja-tags">
-                <NavLink className="tag" to={"/pagina-1/accion"}>
+                <NavLink className="tag" to={"/accion/1"}>
                    <h2>Accion</h2>
                 </NavLink>
-                <NavLink className="tag" to={"/pagina-2"}>
+                <NavLink className="tag" to={"/terror/1"}>
                 <h2>terror</h2>
                 </NavLink>
-                <NavLink className="tag" to={"/pagina-3"}>
+                <NavLink className="tag" to={"/primera-persona/1"}>
                  <h2>primera persona</h2>
                 </NavLink>
-                <NavLink className="tag" to={"/pagina-4"}>
+                <NavLink className="tag" to={"/2D/1"}>
                   <h2>2D</h2>
                 </NavLink>
-                <NavLink className="tag" to={"/pagina-5"}>
+                <NavLink className="tag" to={"/corto/1"}>
                    <h2>corto</h2>
                 </NavLink>
             </nav>
