@@ -1,5 +1,6 @@
 import { Inicio } from "../Pagina inicial/inicio";
 import "../Cards/card.css"
+import "../boton-pagina/boton.css"
 import { Link } from "react-router-dom";
 import jsonData from "./juegosAccion1.json"
 import grand from "../../public/images/gta5.jpg"
@@ -55,6 +56,13 @@ export function Pagina1Accion() {
             <div className="titulo"><h4>{gta.titulo}</h4></div>
             </div>
         </div>
+        </div>
+        
+        <div className="paginas">
+        <div className="pagina">1</div>
+        <div className="pagina">2</div>
+        <div className="pagina">3</div>
+        <div className="pagina">4</div>
         </div>
         </>
     )
