@@ -56,9 +56,9 @@ function App() {
       <Route path='/2D/4' element={<Pagina42D/>}></Route>
       
       <Route path='/primera-persona/1' element={<PrimeraPersona1/>}></Route>
-      <Route path='/primera-persona/2' element={<Inicio/>}></Route>
-      <Route path='/primera-persona/3' element={<Inicio/>}></Route>
-      <Route path='/primera-persona/4' element={<Inicio/>}></Route>
+      <Route path='/primera-persona/2' element={<Pagina2primerapersona/>}></Route>
+      <Route path='/primera-persona/3' element={<Pagina3primerapersona/>}></Route>
+      <Route path='/primera-persona/4' element={<Pagina4primerapersona/>}></Route>
 
     </Routes>
     </BrowserRouter>
