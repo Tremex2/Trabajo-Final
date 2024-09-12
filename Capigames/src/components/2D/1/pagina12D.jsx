@@ -1,5 +1,6 @@
 import { Inicio } from "../../Pagina inicial/inicio"
 import "../../Cards/card.css"
+import "../../boton-pagina/boton.css"
 import celeste from "../../../public/2D/celeste.jpg"
 import holllowKnight from "../../../public/2D/hollow-knight.jpg"
 import hotline2 from "../../../public/2D/hotline-miami-II.jpg"

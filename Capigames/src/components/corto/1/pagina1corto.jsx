@@ -1,5 +1,6 @@
 import { Inicio } from "../../Pagina inicial/inicio"
 import "../../Cards/card.css"
+import "../../boton-pagina/boton.css"
 import hike from "../../../public/corto/a-short-hike.png"
 import firewach from "../../../public/corto/firewach.jpg" 
 import gris from "../../../public/corto/gris.webp"
