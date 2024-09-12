@@ -43,7 +43,7 @@ function App() {
       <Route path='/accion/1' element={<Pagina1Accion/>}></Route>
       <Route path='/accion/2' element={<Pagina2Accion/>}></Route>
       <Route path='/accion/3' element={<Pagina3Accion/>}></Route>
-      <Route path='/accion/4' element={<Pagina4Accion/>}></Route>
+      <Route path='/accion/4' element={<Pagina4accion/>}></Route>
 
       <Route path='/corto/1' element={<Corto1/>}></Route>
       <Route path='/corto/2' element={<Pagina2Corto/>}></Route>
