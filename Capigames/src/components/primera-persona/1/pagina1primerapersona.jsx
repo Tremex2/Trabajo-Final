@@ -1,5 +1,6 @@
 import { Inicio } from "../../Pagina inicial/inicio"
 import "../../Cards/card.css"
+import "../../boton-pagina/boton.css"
 import bioshock from "../../../public/primera-persona/bioshock.jpg"
 import dishonored from "../../../public/primera-persona/dishonored.jpg"
 import dyingLight from "../../../public/primera-persona/dying-light.jpg"

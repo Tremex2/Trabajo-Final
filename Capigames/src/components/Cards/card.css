@@ -26,9 +26,9 @@
 }
 .titulo{
     color: white;
-    margin: 1px;
+    margin: 0px;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: Ubuntu-italic;
     font-size:x-large;
 }
