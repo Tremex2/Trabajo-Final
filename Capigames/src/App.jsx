@@ -1,11 +1,12 @@
 import { Inicio } from './components/Pagina inicial/inicio'
 import {BrowserRouter, Routes ,Route} from "react-router-dom"
 import { Menu } from './components/Menu/menu'
-import { Pagina1Accion } from './components/accion/pagina1accion'
-import { Corto1 } from './components/corto/pagina1corto'
-import { SD1 } from './components/2D/pagina12D'
+import { Pagina1Accion } from './components/accion/1/pagina1accion'
+import { Corto1 } from './components/corto/1/pagina1corto'
+import { SD1 } from './components/2D/1/pagina12D'
 import { Terror1 } from './components/terror/pagina1terror'
-import { PrimeraPersona1 } from './components/primera-persona/pagina1primerapersona'
+import { PrimeraPersona1 } from './components/primera-persona/1/pagina1primerapersona'
+
 function App() {
 
   return (
