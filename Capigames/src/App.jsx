@@ -34,6 +34,7 @@ function App() {
     <Menu/>
     <Routes>
       <Route path='/' element={<Inicio/>}></Route>
+      
 
       <Route path='/terror/1' element={<Terror1/>}></Route>
       <Route path='/terror/2' element={<Pagina2terror/>}></Route>
