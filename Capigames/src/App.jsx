@@ -1,4 +1,5 @@
 import { Inicio } from './components/Pagina inicial/inicio'
+import { Error } from './components/404/404'
 import {BrowserRouter, Routes ,Route} from "react-router-dom"
 import { Menu } from './components/Menu/menu'
 
@@ -34,8 +35,8 @@ function App() {
     <Menu/>
     <Routes>
       <Route path='/' element={<Inicio/>}></Route>
-      
-
+      <Route path='/*' element={<Error/>}></Route>
+ 
       <Route path='/terror/1' element={<Terror1/>}></Route>
       <Route path='/terror/2' element={<Pagina2terror/>}></Route>
       <Route path='/terror/3' element={<Pagina3terror/>}></Route>
