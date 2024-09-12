@@ -3,6 +3,7 @@ import "../../Cards/card.css"
 import "../../boton-pagina/boton.css"
 import construccion from "../../../public/construccion.jpg"
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom"
 export function Pagina4Corto() {
     return(
         <>
@@ -49,10 +50,10 @@ export function Pagina4Corto() {
         </div>
         
         <div className="paginas">
-        <Link className="active pagina" to={"/accion/1"}>1</Link>
-        <Link className="active pagina" to={"/accion/2"}>2</Link>
-        <Link className="active pagina" to={"/accion/3"}>3</Link>
-        <Link className="active pagina" to={"/accion/4"}>4</Link>
+        <NavLink className="pagina" to={"/corto/1"}>1</NavLink>
+        <NavLink className="pagina" to={"/corto/2"}>2</NavLink>
+        <NavLink className="pagina" to={"/corto/3"}>3</NavLink>
+        <NavLink className="pagina" to={"/corto/4"}>4</NavLink>
         </div>
         </>
     )

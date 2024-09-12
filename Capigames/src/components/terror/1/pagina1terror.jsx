@@ -1,4 +1,6 @@
 import { Inicio } from "../../Pagina inicial/inicio"
+import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "../../Cards/card.css"
 import "../../boton-pagina/boton.css"
 import amnesia from "../../../public/terror/amnesia.webp"
@@ -21,41 +23,47 @@ export function Terror1() {
         <div className="grid">
             <div className="card">
             <img src={amnesia} alt="" className="image" />
-            <div className="titulo"><h4>Amnesia</h4></div>
+            <Link className="titulo"><h4>Amnesia</h4></Link>
             </div>
             <div className="card">
             <img src={layersOfFear} alt="" className="image" />
-            <div className="titulo"><h4></h4>Layers of fear</div>
+            <Link className="titulo"><h4>Layers of fear</h4></Link>
             </div>
             <div className="card">
             <img src={littleNightmaresII} alt="" className="image" />
-            <div className="titulo"><h4>Little nightmares II</h4></div>
+            <Link className="titulo"><h4>Little nightmares II</h4></Link>
             </div>
             <div className="card">
             <img src={littleNightmares} alt="" className="image" />
-            <div className="titulo"><h4>Little nightmares</h4></div>
+            <Link className="titulo"><h4>Little nightmares</h4></Link>
             </div>
             <div className="card">
             <img src={outlastII} alt="" className="image" />
-            <div className="titulo"><h4>Outlast II</h4></div>
+            <Link className="titulo"><h4>Outlast II</h4></Link>
             </div>
             <div className="card">
             <img src={outlast} alt="" className="image" />
-            <div className="titulo"><h4>Outlast</h4></div>
+            <Link className="titulo"><h4>Outlast</h4></Link>
             </div>
             <div className="card">
             <img src={phasmophobia} alt="" className="image" />
-            <div className="titulo"><h4>Phasmophobia</h4></div>
+            <Link className="titulo"><h4>Phasmophobia</h4></Link>
             </div>
             <div className="card">
             <img src={silentHillII} alt="" className="image" />
-            <div className="titulo"><h4>Silent Hill II</h4></div>
+            <Link className="titulo"><h4>Silent Hill II</h4></Link>
             </div>
             <div className="card">
             <img src={soma} alt="" className="image" />
-            <div className="titulo"><h4>SOMA</h4></div>
+            <Link className="titulo"><h4>SOMA</h4></Link>
             </div>
         </div>
+        </div>
+        <div className="paginas">
+        <NavLink className="pagina" to={"/terror/1"}>1</NavLink>
+        <NavLink className="pagina" to={"/terror/2"}>2</NavLink>
+        <NavLink className="pagina" to={"/terror/3"}>3</NavLink>
+        <NavLink className="pagina" to={"/terror/4"}>4</NavLink>
         </div>
         </>
     )

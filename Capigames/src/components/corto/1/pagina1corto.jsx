@@ -1,4 +1,6 @@
 import { Inicio } from "../../Pagina inicial/inicio"
+import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "../../Cards/card.css"
 import "../../boton-pagina/boton.css"
 import hike from "../../../public/corto/a-short-hike.png"
@@ -56,6 +58,12 @@ export function Corto1() {
             <div className="titulo"><h4>What remains of edith finch</h4></div>
             </div>
         </div>
+        </div>
+        <div className="paginas">
+        <NavLink className="pagina" to={"/corto/1"}>1</NavLink>
+        <NavLink className="pagina" to={"/corto/2"}>2</NavLink>
+        <NavLink className="pagina" to={"/corto/3"}>3</NavLink>
+        <NavLink className="pagina" to={"/corto/4"}>4</NavLink>
         </div>
         </>
     )
