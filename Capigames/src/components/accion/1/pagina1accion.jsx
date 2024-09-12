@@ -1,17 +1,17 @@
-import { Inicio } from "../Pagina inicial/inicio";
-import "../Cards/card.css"
-import "../boton-pagina/boton.css"
+import { Inicio } from "../../Pagina inicial/inicio";
+import "../../Cards/card.css"
+import "../../boton-pagina/boton.css"
 import { Link } from "react-router-dom";
 import jsonData from "./juegosAccion1.json"
-import grand from "../../public/images/gta5.jpg"
-import ultrakill from "../../public/images/ultrakill.webp"
-import tlou2 from "../../public/images/the-last-of-us-2.jpg"
-import doom from "../../public/images/doom.jpg"
-import tlou from "../../public/images/the-last-of-us.jpg"
-import cyberpunk from "../../public/images/cyberpunk.jpg"
-import codevein from "../../public/images/CodeVein.jpg"
-import darksouls from "../../public/images/dark-souls.jpg"
-import rdr2 from "../../public/images/rdr2.jpg"
+import grand from "../../../public/images/gta5.jpg"
+import ultrakill from "../../../public/images/ultrakill.webp"
+import tlou2 from "../../../public/images/the-last-of-us-2.jpg"
+import doom from "../../../public/images/doom.jpg"
+import tlou from "../../../public/images/the-last-of-us.jpg"
+import cyberpunk from "../../../public/images/cyberpunk.jpg"
+import codevein from "../../../public/images/CodeVein.jpg"
+import darksouls from "../../../public/images/dark-souls.jpg"
+import rdr2 from "../../../public/images/rdr2.jpg"
 export function Pagina1Accion() {
     const gta = jsonData.GTA 
     return(
