@@ -3,7 +3,7 @@ import "../../Cards/card.css"
 import "../../boton-pagina/boton.css"
 import construccion from "../../../public/construccion.jpg"
 import { Link } from "react-router-dom";
-export function Pagina2terror() {
+export function Pagina4primerapersona() {
     return(
         <>
         <Inicio></Inicio>
