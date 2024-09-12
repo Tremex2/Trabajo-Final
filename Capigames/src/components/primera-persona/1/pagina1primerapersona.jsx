@@ -1,4 +1,6 @@
 import { Inicio } from "../../Pagina inicial/inicio"
+import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import "../../Cards/card.css"
 import "../../boton-pagina/boton.css"
 import bioshock from "../../../public/primera-persona/bioshock.jpg"
@@ -55,6 +57,12 @@ export function PrimeraPersona1() {
             <div className="titulo"><h4>The elders scroll V: Skyrim</h4></div>
             </div>
         </div>
+        </div>
+        <div className="paginas">
+        <NavLink className="pagina" to={"/primera-persona/1"}>1</NavLink>
+        <NavLink className="pagina" to={"/primera-persona/2"}>2</NavLink>
+        <NavLink className="pagina" to={"/primera-persona/3"}>3</NavLink>
+        <NavLink className="pagina" to={"/primera-persona/4"}>4</NavLink>
         </div>
         </>
     )

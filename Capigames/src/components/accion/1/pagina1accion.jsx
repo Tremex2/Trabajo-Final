@@ -2,6 +2,7 @@ import { Inicio } from "../../Pagina inicial/inicio";
 import "../../Cards/card.css"
 import "../../boton-pagina/boton.css"
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import jsonData from "./juegosAccion1.json"
 import grand from "../../../public/images/gta5.jpg"
 import ultrakill from "../../../public/images/ultrakill.webp"
@@ -59,10 +60,10 @@ export function Pagina1Accion() {
         </div>
         
         <div className="paginas">
-        <Link className="active pagina" to={"/accion/1"}>1</Link>
-        <Link className="active pagina" to={"/accion/2"}>2</Link>
-        <Link className="active pagina" to={"/accion/3"}>3</Link>
-        <Link className="active pagina" to={"/accion/4"}>4</Link>
+        <NavLink className="pagina" to={"/accion/1"}>1</NavLink>
+        <NavLink className="pagina" to={"/accion/2"}>2</NavLink>
+        <NavLink className="pagina" to={"/accion/3"}>3</NavLink>
+        <NavLink className="pagina" to={"/accion/4"}>4</NavLink>
         </div>
         </>
     )
