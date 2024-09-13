@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './menu.css';
+import { Link } from 'react-router-dom';
 
 
 export function Menu() {
@@ -17,18 +18,18 @@ export function Menu() {
         <div className="barra3"></div>
       </div>
       <div className={menuClass} id="menu">
-        <div className='menu'><h2> Menu</h2></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="opcion"><h4>opcion</h4></div>
-        <div className="boton-menu-cerrar" onClick={despliegue}><h2>Cerrar</h2></div>
+        <Link className='menu'><h2> Menu</h2></Link>
+        <Link className="opcion" to={"/"}><h4>Inicio</h4></Link>
+        <Link className="opcion"><h4>opcion</h4></Link>
+        <Link className="opcion"><h4>opcion</h4></Link>
+        <Link className="opcion"><h4>opcion</h4></Link>
+        <Link className="opcion"><h4>opcion</h4></Link>
+        <Link className="opcion"><h4>opcion</h4></Link>
+        <Link className="opcion"><h4>opcion</h4></Link>
+        <Link className="opcion"><h4>opcion</h4></Link>
+        <Link className="opcion"><h4>opcion</h4></Link>
+        <Link className="opcion"><h4>opcion</h4></Link>
+        <Link className="boton-menu-cerrar" onClick={despliegue}><h2>Cerrar</h2></Link>
       </div>
     </>
   );
