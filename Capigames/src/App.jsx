@@ -27,6 +27,7 @@ import { PrimeraPersona1 } from './components/primera-persona/1/pagina1primerape
 import { Pagina2primerapersona } from './components/primera-persona/2/pagina2primerapersona'
 import { Pagina3primerapersona } from './components/primera-persona/3/pagina3primerapersona'
 import { Pagina4primerapersona } from './components/primera-persona/4/pagina4primerapersona'
+import { Bienvenida } from './components/bienvenida/bienvenida'
 function App() {
 
   return (
@@ -34,7 +35,7 @@ function App() {
     <BrowserRouter>
     <Menu/>
     <Routes>
-      <Route path='/' element={<Inicio/>}></Route>
+      <Route path='/' element={<Bienvenida/>}></Route>
       <Route path='/*' element={<Error/>}></Route>
  
       <Route path='/terror/1' element={<Terror1/>}></Route>
