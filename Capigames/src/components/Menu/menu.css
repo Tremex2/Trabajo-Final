@@ -100,6 +100,7 @@
     align-items: center;
     justify-content: center;
     animation: colorRetrasado 3s infinite;
+    text-decoration: none;
 }
 .opcion{
     height: 35px;
@@ -109,6 +110,7 @@
     margin-top: 3px;
     margin-bottom: 3px;
     animation: color 3s infinite;
+    text-decoration: none;
 }
 .boton-menu-cerrar{
     height: 50px;
@@ -116,4 +118,5 @@
     align-items: center;
     justify-content: center;
     animation: colorRetrasado 3s infinite;
+    text-decoration: none;
 }
