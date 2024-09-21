@@ -1,13 +1,18 @@
 import "../../../juegos-css/juegos.css"
 import { useState } from "react";
-
+import mediafire from "../../../../public/links de descarga/mediafire.webp"
+import mega from "../../../../public/links de descarga/mega.png"
+import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
 
 export function Rdr2() {
     const [contenido, setContenido] = useState(<h1>Seleccione una opción</h1>);
+    const [activeButton, setActiveButton] = useState(null);
 
-    const cambiarContenido = (nuevoContenido) => {
+    const cambiarContenido = (nuevoContenido, button) => {
         setContenido(nuevoContenido);
+        setActiveButton(button);
     };
+
     return (
         <>
             <div className="contenedor-del-contenedor-juegos">
@@ -19,7 +24,7 @@ export function Rdr2() {
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste. Asume el papel de Arthur Morgan, un forajido miembro de la banda de Van der Linde, mientras navegas por un mundo vasto y detallado lleno de misiones emocionantes, personajes memorables y decisiones morales que impactan la narrativa.
+                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
                         </h3>
                     </div>
 
@@ -28,15 +33,7 @@ export function Rdr2() {
                             <div className="inline" style={{ margin: "15px" }} onClick={() => cambiarContenido(<div>
                                 <ul className="">
                                     <li className="lista-general">Version: 1.31</li>
-                                    <li className="lista-general">Idiomas: Inglés,
-                                        Español (Latinoamérica y España),
-                                        Francés,
-                                        Alemán,
-                                        Italiano,
-                                        Portugués (Brasil),
-                                        Ruso,
-                                        Chino simplificado y
-                                        Japonés</li>
+                                    <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
                                     <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
                                 </ul>
                                 <ul>
@@ -46,25 +43,48 @@ export function Rdr2() {
                                     <li className="lista-general">Memoria: 8 GB RAM</li>
                                     <li className="lista-general">Tarjeta de vídeo: NVIDIA GeForce GTX 770 con 2 GB / AMD Radeon R9 280 con 3 GB</li>
                                 </ul>
-                            </div>)}>
+                            </div>, 'general')}>
                                 <ion-icon name="information-circle-outline" size="large" color="white"></ion-icon>
-                                <h1>General</h1>
+                                <h1 className={activeButton === 'general' ? 'active-juegos' : ''}>
+                                    General
+                                </h1>
                             </div>
                             <div className="inline" style={{ margin: "15px" }} onClick={() => cambiarContenido(
-
-                            )}>
+                                <ul>
+                                    <li className="lista-general">Peso del juego: 150GB</li>
+                                    <li className="lista-links">
+                                        <div className="fit-content">
+                                            <img src={mediafire} alt="" />
+                                        </div>
+                                        Mediafire
+                                    </li>
+                                    <li className="lista-links">
+                                        <div className="fit-content">
+                                            <img src={mega} alt="" />
+                                        </div>
+                                        Mega
+                                    </li>
+                                    <li className="lista-links">
+                                        <div className="fit-content">
+                                            <img src={pixelDrain} alt="" />
+                                        </div>
+                                        Pixeldrain
+                                    </li>
+                                </ul>
+                                , 'descarga')}>
                                 <ion-icon name="download-outline" size="large" color="white"></ion-icon>
-                                <h1>Descarga</h1>
+                                <h1 className={activeButton === 'descarga' ? 'active-juegos' : ''}>
+                                    Descarga
+                                </h1>
                             </div>
                         </div>
                         <div className="linea-recta-juegos"></div>
                         <div className="contenido">
-                            {contenido} {/* Muestra el contenido basado en el estado */}
+                            {contenido}
                         </div>
                     </div>
                 </div>
             </div>
         </>
-
     )
 }
