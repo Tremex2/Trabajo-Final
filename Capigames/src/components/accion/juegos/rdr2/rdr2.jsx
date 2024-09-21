@@ -5,7 +5,20 @@ import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
 
 export function Rdr2() {
-    const [contenido, setContenido] = useState(<h1>Seleccione una opción</h1>);
+    const [contenido, setContenido] = useState(<div>
+        <ul className="">
+            <li className="lista-general">Version: 1.31</li>
+            <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
+            <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+        </ul>
+        <ul>
+            <li className="lista-general">Requisitos</li>
+            <li className="lista-general">Sistema operativo: Windows 10 de 64 bits</li>
+            <li className="lista-general">Procesador: Intel Core i5-2500K / AMD FX-6300</li>
+            <li className="lista-general">Memoria: 8 GB RAM</li>
+            <li className="lista-general">Tarjeta de vídeo: NVIDIA GeForce GTX 770 con 2 GB / AMD Radeon R9 280 con 3 GB</li>
+        </ul>
+    </div>, 'general');
     const [activeButton, setActiveButton] = useState(null);
 
     const cambiarContenido = (nuevoContenido, button) => {
