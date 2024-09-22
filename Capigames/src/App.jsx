@@ -1,6 +1,7 @@
 import { Error } from './components/404/404'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Menu } from './components/Menu/menu'
+import { Busqueda } from './components/barra de busqueda/busqueda'
 
 import { Pagina1Accion } from './components/accion/1/pagina1accion'
 import { Pagina2Accion } from './components/accion/2/pagina2accion'
@@ -36,6 +37,8 @@ function App() {
       <BrowserRouter>
         <Menu />
         <Routes>
+          <Route path='/prueba' element={<Busqueda />}></Route>
+          {/* generales */}
           <Route path='/' element={<Bienvenida />}></Route>
           <Route path='/*' element={<Error />}></Route>
           {/* rutas de paginas de terror */}
