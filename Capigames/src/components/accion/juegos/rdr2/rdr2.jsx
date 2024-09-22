@@ -43,7 +43,7 @@ export function Rdr2() {
 
                     <div className="links-de-descarga">
                         <div className="letras-juegos inline">
-                            <div className="inline" style={{ margin: "15px" }} onClick={() => cambiarContenido(<div>
+                            <div className="inline" onClick={() => cambiarContenido(<div>
                                 <ul className="">
                                     <li className="lista-general">Version: 1.31</li>
                                     <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
@@ -62,7 +62,7 @@ export function Rdr2() {
                                     General
                                 </h1>
                             </div>
-                            <div className="inline" style={{ margin: "15px" }} onClick={() => cambiarContenido(
+                            <div className="inline" onClick={() => cambiarContenido(
                                 <ul>
                                     <li className="lista-general">Peso del juego: 150GB</li>
                                     <li className="lista-links">
