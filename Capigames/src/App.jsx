@@ -36,8 +36,8 @@ function App() {
     <>
       <BrowserRouter>
         <Menu />
+        <Busqueda />
         <Routes>
-          <Route path='/prueba' element={<Busqueda />}></Route>
           {/* generales */}
           <Route path='/' element={<Bienvenida />}></Route>
           <Route path='/*' element={<Error />}></Route>

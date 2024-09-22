@@ -30,11 +30,14 @@ export function Busqueda() {
 
     return (
         <>
-            <section id="contenedor-main">
-                <div id="input-container">
-                    <input type="text" name="buscador" id="buscador" placeholder="Buscar..." />
+            <section className="contenedor-main">
+                <div className="input-container">
+                    <div className="inline-buscador">
+                        <ion-icon name="search-circle-outline"></ion-icon>
+                        <input type="text" name="buscador" id="buscador" placeholder="buscar juego" />
+                    </div>
                     <ul id="listaArticulos">
-                        <li><Link className="articulo no-deco filtro" to="#">🍇Mora</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
                         <li><Link className="articulo no-deco filtro" to="#">🍊Naranja</Link></li>
                         <li><Link className="articulo no-deco filtro" to="#">🍓Fresa</Link></li>
                         <li><Link className="articulo no-deco filtro" to="#">🍐Pera</Link></li>
@@ -42,9 +45,144 @@ export function Busqueda() {
                         <li><Link className="articulo no-deco filtro" to="#">🍌Plátano</Link></li>
                         <li><Link className="articulo no-deco filtro" to="#">🍈Melon</Link></li>
                         <li><Link className="articulo no-deco filtro" to="#">🥭Mango</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
+                        <li><Link className="articulo no-deco filtro" to="#">rdr2</Link></li>
                     </ul>
                 </div>
-                <h1>dou</h1>
             </section>
         </>
     );
