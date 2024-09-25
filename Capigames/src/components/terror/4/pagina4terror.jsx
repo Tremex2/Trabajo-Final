@@ -1,60 +1,71 @@
 import { Inicio } from "../../Pagina inicial/inicio";
 import "../../Cards/card.css"
 import "../../boton-pagina/boton.css"
-import construccion from "../../../public/construccion.jpg"
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom"
+//fotos
+import construccion from "../../../public/construccion.jpg"
+import clockTower from "../../../public/terror/4/clock-tower.jpg"
+import goneHome from "../../../public/terror/4/gone-home.jpg"
+import houseOfAshes from "../../../public/terror/4/house-of-ashes.jpg"
+import sunlessSkies from "../../../public/terror/4/sunless-skies.jpg"
+import theCatLady from "../../../public/terror/4/the-cat-lady.jpg"
+import theSinkingCity from "../../../public/terror/4/the-sinking-city.jpg"
+import yummeNikki from "../../../public/terror/4/yumme-nikki.jpg"
+
+
+
 export function Pagina4terror() {
-    return(
+    return (
         <>
-        <Inicio></Inicio>
-        <div className="container">
-        <div className="grid">
-            <div className="card">
-            <img src={construccion} alt="" className="image" />
-            <Link className="titulo"><h4>no terminado</h4></Link>
+            <Inicio></Inicio>
+            <div className="container">
+                <div className="grid">
+                    <div className="card">
+                        <img src={clockTower} alt="" className="image" />
+                        <Link className="titulo"><h4>Clock Tower</h4></Link>
+                    </div>
+                    <div className="card">
+                        <img src={goneHome} alt="" className="image" />
+                        <Link className="titulo"><h4>Gone Home</h4></Link>
+                    </div>
+                    <div className="card">
+                        <img src={houseOfAshes} alt="" className="image" />
+                        <Link className="titulo"><h4>House of ashes</h4></Link>
+                    </div>
+                    <div className="card">
+                        <img src={sunlessSkies} alt="" className="image" />
+                        <Link className="titulo"><h4>Sunless skies</h4></Link>
+                    </div>
+                    <div className="card">
+                        <img src={theCatLady} alt="" className="image" />
+                        <Link className="titulo"><h4>the cat lady</h4></Link>
+                    </div>
+                    <div className="card">
+                        <img src={theSinkingCity} alt="" className="image" />
+                        <Link className="titulo"><h4>the sinking city</h4></Link>
+                    </div>
+                    <div className="card">
+                        <img src={yummeNikki} alt="" className="image" />
+                        <Link className="titulo"><h4>yumme nikki</h4></Link>
+                    </div>
+                    <div className="card">
+                        <img src={construccion} alt="" className="image" />
+                        <Link className="titulo"><h4>no terminado</h4></Link>
+                    </div>
+                    <div className="card">
+                        <img src={construccion} alt="" className="image" />
+                        <Link className="titulo"><h4>no terminado</h4></Link>
+                    </div>
+                </div>
             </div>
-            <div className="card">
-            <img src={construccion} alt="" className="image" />
-            <Link className="titulo"><h4>no terminado</h4></Link>
+
+            <div className="paginas">
+                <NavLink className="pagina" to={"/terror/1"}>1</NavLink>
+                <NavLink className="pagina" to={"/terror/2"}>2</NavLink>
+                <NavLink className="pagina" to={"/terror/3"}>3</NavLink>
+                <NavLink className="pagina" to={"/terror/4"}>4</NavLink>
             </div>
-            <div className="card">
-            <img src={construccion} alt="" className="image" />
-            <Link className="titulo"><h4>no terminado</h4></Link>
-            </div>
-            <div className="card">
-            <img src={construccion} alt="" className="image" />
-            <Link className="titulo"><h4>no terminado</h4></Link>
-            </div>
-            <div className="card">
-            <img src={construccion} alt="" className="image" />
-            <Link className="titulo"><h4>no terminado</h4></Link>
-            </div>
-            <div className="card">
-            <img src={construccion} alt="" className="image" />
-            <Link className="titulo"><h4>no terminado</h4></Link>
-            </div>
-            <div className="card">
-            <img src={construccion} alt="" className="image" />
-            <Link className="titulo"><h4>no terminado</h4></Link>
-            </div>
-            <div className="card">
-            <img src={construccion} alt="" className="image" />
-            <Link className="titulo"><h4>no terminado</h4></Link>
-            </div>
-            <div className="card">
-            <img src={construccion} alt="" className="image" />
-            <Link className="titulo"><h4>no terminado</h4></Link>
-            </div>
-        </div>
-        </div>
-        
-        <div className="paginas">
-        <NavLink className="pagina" to={"/terror/1"}>1</NavLink>
-        <NavLink className="pagina" to={"/terror/2"}>2</NavLink>
-        <NavLink className="pagina" to={"/terror/3"}>3</NavLink>
-        <NavLink className="pagina" to={"/terror/4"}>4</NavLink>
-        </div>
         </>
     )
 }
