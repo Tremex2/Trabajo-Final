@@ -24,39 +24,39 @@ export function Pagina3Accion() {
                 <div className="grid">
                     <div className="card">
                         <img src={bayonetta} alt="" className="image" />
-                        <Link className="titulo"><h4>Bayonetta 2</h4></Link>
+                        <Link className="titulo" to={"/accion/3/bayonetta-2"}><h4>Bayonetta 2</h4></Link>
                     </div>
                     <div className="card">
                         <img src={borderlands} alt="" className="image" />
-                        <Link className="titulo"><h4>Borderlands 3</h4></Link>
+                        <Link className="titulo" to={"/accion/3/borderlands-3"}><h4>Borderlands 3</h4></Link>
                     </div>
                     <div className="card">
                         <img src={dishonored2} alt="" className="image" />
-                        <Link className="titulo"><h4>Dishonored 2</h4></Link>
+                        <Link className="titulo" to={"/accion/3/dishonored-2"}><h4>Dishonored 2</h4></Link>
                     </div>
                     <div className="card">
                         <img src={dyingLight2} alt="" className="image" />
-                        <Link className="titulo"><h4>Dying light 2</h4></Link>
+                        <Link className="titulo" to={"/accion/3/dying-light-2"}><h4>Dying light 2</h4></Link>
                     </div>
                     <div className="card">
                         <img src={farCry6} alt="" className="image" />
-                        <Link className="titulo"><h4>Far Cry 6</h4></Link>
+                        <Link className="titulo" to={"/accion/3/far-cry-6"}><h4>Far Cry 6</h4></Link>
                     </div>
                     <div className="card">
                         <img src={jediFallenOrder} alt="" className="image" />
-                        <Link className="titulo"><h4>Jedi Fallen Order</h4></Link>
+                        <Link className="titulo" to={"/accion/3/jedi-fallen-order"}><h4>Jedi Fallen Order</h4></Link>
                     </div>
                     <div className="card">
                         <img src={residentEvilVillage} alt="" className="image" />
-                        <Link className="titulo"><h4>Resident Evil Village</h4></Link>
+                        <Link className="titulo" to={"/accion/3/resident-evil-village"}><h4>Resident Evil Village</h4></Link>
                     </div>
                     <div className="card">
                         <img src={shadowsOfWar} alt="" className="image" />
-                        <Link className="titulo"><h4>Shadows of war</h4></Link>
+                        <Link className="titulo" to={"/accion/3/shadows-of-war"}><h4>Shadows of war</h4></Link>
                     </div>
                     <div className="card">
                         <img src={titanfall2} alt="" className="image" />
-                        <Link className="titulo"><h4>Titanfall 2</h4></Link>
+                        <Link className="titulo" to={"/accion/3/titanfall-2"}><h4>Titanfall 2</h4></Link>
                     </div>
                 </div>
             </div>

@@ -29,6 +29,17 @@ import { WatchDogsLegion } from './components/accion/juegos/2/watchDogsLegion'
 
 
 import { Pagina3Accion } from './components/accion/3/pagina3accion'
+
+import { Bayonetta2 } from './components/accion/juegos/3/bayonetta2'
+import { Borderlands3 } from './components/accion/juegos/3/borderlands3'
+import { Dishonored2 } from './components/accion/juegos/3/dishonored2'
+import { DyingLight2 } from './components/accion/juegos/3/dyingLight2'
+import { FarCry6 } from './components/accion/juegos/3/farCry6'
+import { JediFallenOrder } from './components/accion/juegos/3/jediFallenOrder'
+import { ResidentEvilVillage } from './components/accion/juegos/3/residentEvilVillage'
+import { ShadowsOfWar } from './components/accion/juegos/3/shadowsOfWar'
+import { Titanfall2 } from './components/accion/juegos/3/titanfall2'
+
 import { Pagina4accion } from './components/accion/4/pagina4accion'
 
 import { Corto1 } from './components/corto/1/pagina1corto'
@@ -93,6 +104,17 @@ function App() {
           <Route path='/accion/2/mortal-shell' element={<MortalShell />}></Route>
           <Route path='/accion/2/remnant-from-the-ashes' element={<RemnantFromTheAshes />}></Route>
           <Route path='/accion/2/watch-dogs-legion' element={<WatchDogsLegion />}></Route>
+
+          <Route path='/accion/3/bayonetta-2' element={<Bayonetta2 />}></Route>
+          <Route path='/accion/3/borderlands-3' element={<Borderlands3 />}></Route>
+          <Route path='/accion/3/dishonored-2' element={<Dishonored2 />}></Route>
+          <Route path='/accion/3/dying-light-2' element={<DyingLight2 />}></Route>
+          <Route path='/accion/3/far-cry-6' element={<FarCry6 />}></Route>
+          <Route path='/accion/3/jedi-fallen-order' element={<JediFallenOrder />}></Route>
+          <Route path='/accion/3/resident-evil-village' element={<ResidentEvilVillage />}></Route>
+          <Route path='/accion/3/shadows-of-war' element={<ShadowsOfWar />}></Route>
+          <Route path='/accion/3/titanfall-2' element={<Titanfall2 />}></Route>
+
           {/* rutas de paginas de corto */}
           <Route path='/corto/1' element={<Corto1 />}></Route>
           <Route path='/corto/2' element={<Pagina2Corto />}></Route>
