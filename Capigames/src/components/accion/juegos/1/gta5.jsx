@@ -4,7 +4,7 @@ import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
 
-export function Rdr2() {
+export function GTA5() {
     const [contenido, setContenido] = useState(<div>
         <ul className="">
             <li className="lista-general">Version: 1.31</li>
@@ -31,7 +31,7 @@ export function Rdr2() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">RDR2</h1>
+                        <h1 className="letras-juegos">GTA 5</h1>
                         <div className="linea-recta-juegos"></div>
                         <div className="espacio-sin-mas"></div>
                         <div className="linea-recta-juegos"></div>

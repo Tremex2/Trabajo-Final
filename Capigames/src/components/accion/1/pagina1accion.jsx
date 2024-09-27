@@ -26,35 +26,35 @@ export function Pagina1Accion() {
                     </div>
                     <div className="card">
                         <img src={codevein} alt="" className="image" />
-                        <Link className="titulo"><h4>CodeVein</h4></Link>
+                        <Link className="titulo" to={"/accion/1/codevein"}><h4>CodeVein</h4></Link>
                     </div>
                     <div className="card">
                         <img src={cyberpunk} alt="" className="image" />
-                        <Link className="titulo"><h4>Cyberpunk 2077</h4></Link>
+                        <Link className="titulo" to={"/accion/1/cyberpunk-2077"}><h4>Cyberpunk 2077</h4></Link>
                     </div>
                     <div className="card">
                         <img src={darksouls} alt="" className="image" />
-                        <Link className="titulo"><h4>Dark souls</h4></Link>
+                        <Link className="titulo" to={"/accion/1/dark-souls"}><h4>Dark souls</h4></Link>
                     </div>
                     <div className="card">
                         <img src={doom} alt="" className="image" />
-                        <Link className="titulo"><h4>Doom eternal</h4></Link>
+                        <Link className="titulo" to={"/accion/1/doom-eternal"}><h4>Doom eternal</h4></Link>
                     </div>
                     <div className="card">
                         <img src={tlou} alt="" className="image" />
-                        <Link className="titulo"><h4>The last of us</h4></Link>
+                        <Link className="titulo" to={"/accion/1/tlou"}><h4>The last of us</h4></Link>
                     </div>
                     <div className="card">
                         <img src={tlou2} alt="" className="image" />
-                        <Link className="titulo"><h4>The last of us II</h4></Link>
+                        <Link className="titulo" to={"/accion/1/tlou2"}><h4>The last of us II</h4></Link>
                     </div>
                     <div className="card">
                         <img src={ultrakill} alt="" className="image" />
-                        <Link className="titulo"><h4>Ultrakill</h4></Link>
+                        <Link className="titulo" to={"/accion/1/ultrakill"}><h4>Ultrakill</h4></Link>
                     </div>
                     <div className="card">
                         <img src={grand} alt="no image" className="image" />
-                        <Link className="titulo"><h4>{gta.titulo}</h4></Link>
+                        <Link className="titulo" to={"/accion/1/gta-5"}><h4>{gta.titulo}</h4></Link>
                     </div>
                 </div>
             </div>
