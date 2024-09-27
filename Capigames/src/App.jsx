@@ -9,6 +9,14 @@ import { Pagina3Accion } from './components/accion/3/pagina3accion'
 import { Pagina4accion } from './components/accion/4/pagina4accion'
 
 import { Rdr2 } from "./components/accion/juegos/1/rdr2"
+import { Tlou } from './components/accion/juegos/1/tlou'
+import { Tlou2 } from './components/accion/juegos/1/tlou2'
+import { Ultrakill } from './components/accion/juegos/1/ultrakill'
+import { CodeVein } from './components/accion/juegos/1/CodeVein'
+import { Cyberpunk } from './components/accion/juegos/1/cyberpunk'
+import { DarkSouls } from './components/accion/juegos/1/darkSouls'
+import { DoomEternal } from './components/accion/juegos/1/doomEternal'
+import { GTA5 } from './components/accion/juegos/1/gta5'
 
 import { Corto1 } from './components/corto/1/pagina1corto'
 import { Pagina2Corto } from './components/corto/2/pagina2corto'
@@ -54,6 +62,14 @@ function App() {
           <Route path='/accion/4' element={<Pagina4accion />}></Route>
           {/* rutas de juegos de accion */}
           <Route path='/accion/1/rdr2' element={<Rdr2 />}></Route>
+          <Route path='/accion/1/ultrakill' element={<Ultrakill />}></Route>
+          <Route path='/accion/1/doom-eternal' element={<DoomEternal />}></Route>
+          <Route path='/accion/1/tlou' element={<Tlou />}></Route>
+          <Route path='/accion/1/tlou-2' element={<Tlou2 />}></Route>
+          <Route path='/accion/1/gta-5' element={<GTA5 />}></Route>
+          <Route path='/accion/1/codevein' element={<CodeVein />}></Route>
+          <Route path='/accion/1/dark-souls' element={<DarkSouls />}></Route>
+          <Route path='/accion/1/cyberpunk-2077' element={<Cyberpunk />}></Route>
 
           {/* rutas de paginas de corto */}
           <Route path='/corto/1' element={<Corto1 />}></Route>
