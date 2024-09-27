@@ -2,4 +2,4 @@
 
 ## Enlace al Proyecto
 
-Puedes ver el proyecto en [https://capigame.netlify.app/](https://capigame.netlify.app/).
+Puedes ver el proyecto en [https://capigamesss.netlify.app/](https://capigamesss.netlify.app/).
