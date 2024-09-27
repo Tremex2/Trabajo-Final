@@ -8,7 +8,7 @@ import { Pagina2Accion } from './components/accion/2/pagina2accion'
 import { Pagina3Accion } from './components/accion/3/pagina3accion'
 import { Pagina4accion } from './components/accion/4/pagina4accion'
 
-import { Rdr2 } from "./components/accion/juegos/rdr2/rdr2"
+import { Rdr2 } from "./components/accion/juegos/1/rdr2"
 
 import { Corto1 } from './components/corto/1/pagina1corto'
 import { Pagina2Corto } from './components/corto/2/pagina2corto'
@@ -54,6 +54,7 @@ function App() {
           <Route path='/accion/4' element={<Pagina4accion />}></Route>
           {/* rutas de juegos de accion */}
           <Route path='/accion/1/rdr2' element={<Rdr2 />}></Route>
+
           {/* rutas de paginas de corto */}
           <Route path='/corto/1' element={<Corto1 />}></Route>
           <Route path='/corto/2' element={<Pagina2Corto />}></Route>
