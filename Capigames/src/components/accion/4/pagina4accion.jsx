@@ -22,39 +22,39 @@ export function Pagina4accion() {
                 <div className="grid">
                     <div className="card">
                         <img src={assasinsCreed} alt="" className="image" />
-                        <Link className="titulo"><h4>Assassins Creed Valhalla</h4></Link>
+                        <Link className="titulo" to={"/accion/4/assassins-creed-valhalla"}><h4>Assassins Creed Valhalla</h4></Link>
                     </div>
                     <div className="card">
                         <img src={bloodborne} alt="" className="image" />
-                        <Link className="titulo"><h4>bloodborne</h4></Link>
+                        <Link className="titulo" to={"/accion/4/bloodborne"}><h4>bloodborne</h4></Link>
                     </div>
                     <div className="card">
                         <img src={control} alt="" className="image" />
-                        <Link className="titulo"><h4>Control</h4></Link>
+                        <Link className="titulo" to={"/accion/4/control"}><h4>Control</h4></Link>
                     </div>
                     <div className="card">
                         <img src={devilMayCry5} alt="" className="image" />
-                        <Link className="titulo"><h4>Devil May Cry 5</h4></Link>
+                        <Link className="titulo" to={"/accion/4/devil-may-cry-5"}><h4>Devil May Cry 5</h4></Link>
                     </div>
                     <div className="card">
                         <img src={ghostOfTushima} alt="" className="image" />
-                        <Link className="titulo"><h4>Ghost of Tushima</h4></Link>
+                        <Link className="titulo" to={"/accion/4/ghost-of-tushima"}><h4>Ghost of Tushima</h4></Link>
                     </div>
                     <div className="card">
                         <img src={godOfWar2018} alt="" className="image" />
-                        <Link className="titulo"><h4>God of war 2018</h4></Link>
+                        <Link className="titulo" to={"/accion/4/god-of-war-2018"}><h4>God of war 2018</h4></Link>
                     </div>
                     <div className="card">
                         <img src={horizonZeroDawn} alt="" className="image" />
-                        <Link className="titulo"><h4>Horizon Zero Dawn</h4></Link>
+                        <Link className="titulo" to={"/accion/4/horizon-zero-dawn"}><h4>Horizon Zero Dawn</h4></Link>
                     </div>
                     <div className="card">
                         <img src={nioh2} alt="" className="image" />
-                        <Link className="titulo"><h4>Nioh 2</h4></Link>
+                        <Link className="titulo" to={"/accion/4/nioh-2"}><h4>Nioh 2</h4></Link>
                     </div>
                     <div className="card">
                         <img src={sekiroShadowsDieTwice} alt="" className="image" />
-                        <Link className="titulo"><h4>Sekiro shadows die twice</h4></Link>
+                        <Link className="titulo" to={"/accion/4/sekiro-shadows-die-twice"}><h4>Sekiro shadows die twice</h4></Link>
                     </div>
                 </div>
             </div>
