@@ -4,7 +4,7 @@ import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
 
-export function CodeVein() {
+export function Hitman3() {
     const [contenido, setContenido] = useState(<div>
         <ul className="">
             <li className="lista-general">Version: 1.31</li>
@@ -31,7 +31,7 @@ export function CodeVein() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">CodeVein</h1>
+                        <h1 className="letras-juegos">Hitman 3</h1>
                         <div className="linea-recta-juegos"></div>
                         <div className="espacio-sin-mas"></div>
                         <div className="linea-recta-juegos"></div>
