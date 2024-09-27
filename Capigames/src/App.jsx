@@ -42,6 +42,17 @@ import { Titanfall2 } from './components/accion/juegos/3/titanfall2'
 
 import { Pagina4accion } from './components/accion/4/pagina4accion'
 
+import { AssassinsCreedValhalla } from './components/accion/juegos/4/assasinsCreedValhalla'
+import { Bloodborne } from './components/accion/juegos/4/bloodborne'
+import { Control } from './components/accion/juegos/4/control'
+import { DevilMayCry5 } from './components/accion/juegos/4/devilMayCry5'
+import { GodOfWar2018 } from './components/accion/juegos/4/godOfWar2018'
+import { HorizonZeroDawn } from './components/accion/juegos/4/horizonZeroDawn'
+import { Nioh2 } from './components/accion/juegos/4/nioh2'
+import { SekiroShadowsDieTwice } from './components/accion/juegos/4/sekiroShadowsDieTwice'
+import { GhostOfTushima } from './components/accion/juegos/4/ghostOfTushima'
+
+
 import { Corto1 } from './components/corto/1/pagina1corto'
 import { Pagina2Corto } from './components/corto/2/pagina2corto'
 import { Pagina3Corto } from './components/corto/3/pagina3corto'
@@ -115,6 +126,15 @@ function App() {
           <Route path='/accion/3/shadows-of-war' element={<ShadowsOfWar />}></Route>
           <Route path='/accion/3/titanfall-2' element={<Titanfall2 />}></Route>
 
+          <Route path='/accion/4/assassins-creed-valhalla' element={<AssassinsCreedValhalla />}></Route>
+          <Route path='/accion/4/bloodborne' element={<Bloodborne />}></Route>
+          <Route path='/accion/4/control' element={<Control />}></Route>
+          <Route path='/accion/4/devil-may-cry-5' element={<DevilMayCry5 />}></Route>
+          <Route path='/accion/4/god-of-war-5' element={<GodOfWar2018 />}></Route>
+          <Route path='/accion/4/horizon-zero-dawn' element={<HorizonZeroDawn />}></Route>
+          <Route path='/accion/4/nioh-2' element={<Nioh2 />}></Route>
+          <Route path='/accion/4/sekiro-shadows-die-twice' element={<SekiroShadowsDieTwice />}></Route>
+          <Route path='/accion/4/ghost-of-tushima' element={<GhostOfTushima />}></Route>
           {/* rutas de paginas de corto */}
           <Route path='/corto/1' element={<Corto1 />}></Route>
           <Route path='/corto/2' element={<Pagina2Corto />}></Route>
