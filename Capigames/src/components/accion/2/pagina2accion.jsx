@@ -22,39 +22,39 @@ export function Pagina2Accion() {
                 <div className="grid">
                     <div className="card">
                         <img src={bullets} alt="" className="image" />
-                        <Link className="titulo"><h4>BulletsStorm</h4></Link>
+                        <Link className="titulo" to={"/accion/2/bulletsstorm"}><h4>BulletsStorm</h4></Link>
                     </div>
                     <div className="card">
                         <img src={deathloop} alt="" className="image" />
-                        <Link className="titulo"><h4>deathloop</h4></Link>
+                        <Link className="titulo" to={"/accion/2/deathloop"}><h4>deathloop</h4></Link>
                     </div>
                     <div className="card">
                         <img src={hitman3} alt="" className="image" />
-                        <Link className="titulo"><h4>hitman 3</h4></Link>
+                        <Link className="titulo" to={"/accion/2/hitman-3"}><h4>hitman 3</h4></Link>
                     </div>
                     <div className="card">
                         <img src={justcause4} alt="" className="image" />
-                        <Link className="titulo"><h4>just cause 4</h4></Link>
+                        <Link className="titulo" to={"/accion/2/just-cause-4"}><h4>just cause 4</h4></Link>
                     </div>
                     <div className="card">
                         <img src={madmax} alt="" className="image" />
-                        <Link className="titulo"><h4>madmax</h4></Link>
+                        <Link className="titulo" to={"/accion/2/madmax"}><h4>madmax</h4></Link>
                     </div>
                     <div className="card">
                         <img src={mgsPM} alt="" className="image" />
-                        <Link className="titulo"><h4>MGS phantom pain</h4></Link>
+                        <Link className="titulo" to={"/accion/2/mgs-phantom-pain"}><h4>MGS phantom pain</h4></Link>
                     </div>
                     <div className="card">
                         <img src={mortalshell} alt="" className="image" />
-                        <Link className="titulo"><h4>mortal shell</h4></Link>
+                        <Link className="titulo" to={"/accion/2/moryal-shell"}><h4>mortal shell</h4></Link>
                     </div>
                     <div className="card">
                         <img src={remnant} alt="" className="image" />
-                        <Link className="titulo"><h4>remnant from the ashes</h4></Link>
+                        <Link className="titulo" to={"/accion/2/remnant-from-the-ashes"}><h4>remnant from the ashes</h4></Link>
                     </div>
                     <div className="card">
                         <img src={wdL} alt="" className="image" />
-                        <Link className="titulo"><h4>watch dogs legion</h4></Link>
+                        <Link className="titulo" to={"/accion/2/watch-dogs-legion"}><h4>watch dogs legion</h4></Link>
                     </div>
                 </div>
             </div>

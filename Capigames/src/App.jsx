@@ -4,9 +4,6 @@ import { Menu } from './components/Menu/menu'
 import { Busqueda } from './components/barra de busqueda/busqueda'
 
 import { Pagina1Accion } from './components/accion/1/pagina1accion'
-import { Pagina2Accion } from './components/accion/2/pagina2accion'
-import { Pagina3Accion } from './components/accion/3/pagina3accion'
-import { Pagina4accion } from './components/accion/4/pagina4accion'
 
 import { Rdr2 } from "./components/accion/juegos/1/rdr2"
 import { Tlou } from './components/accion/juegos/1/tlou'
@@ -17,6 +14,22 @@ import { Cyberpunk } from './components/accion/juegos/1/cyberpunk'
 import { DarkSouls } from './components/accion/juegos/1/darkSouls'
 import { DoomEternal } from './components/accion/juegos/1/doomEternal'
 import { GTA5 } from './components/accion/juegos/1/gta5'
+
+import { Pagina2Accion } from './components/accion/2/pagina2accion'
+
+import { BulletsStorm } from './components/accion/juegos/2/bulletsStorm'
+import { DeathLoop } from './components/accion/juegos/2/deathloop'
+import { Hitman3 } from './components/accion/juegos/2/hitman-3'
+import { JustCause4 } from './components/accion/juegos/2/justCause4'
+import { Madmax } from './components/accion/juegos/2/madmax'
+import { MGSPhantomPain } from './components/accion/juegos/2/mgsPhantomPain'
+import { MortalShell } from './components/accion/juegos/2/mortalShell'
+import { RemnantFromTheAshes } from './components/accion/juegos/2/remnantFromTheAshes'
+import { WatchDogsLegion } from './components/accion/juegos/2/watchDogsLegion'
+
+
+import { Pagina3Accion } from './components/accion/3/pagina3accion'
+import { Pagina4accion } from './components/accion/4/pagina4accion'
 
 import { Corto1 } from './components/corto/1/pagina1corto'
 import { Pagina2Corto } from './components/corto/2/pagina2corto'
@@ -71,6 +84,15 @@ function App() {
           <Route path='/accion/1/dark-souls' element={<DarkSouls />}></Route>
           <Route path='/accion/1/cyberpunk-2077' element={<Cyberpunk />}></Route>
 
+          <Route path='/accion/2/bulletsstorm' element={<BulletsStorm />}></Route>
+          <Route path='/accion/2/deathloop' element={<DeathLoop />}></Route>
+          <Route path='/accion/2/hitman-3' element={<Hitman3 />}></Route>
+          <Route path='/accion/2/just-cause-4' element={<JustCause4 />}></Route>
+          <Route path='/accion/2/madmax' element={<Madmax />}></Route>
+          <Route path='/accion/2/mgs-phantom-pain' element={<MGSPhantomPain />}></Route>
+          <Route path='/accion/2/mortal-shell' element={<MortalShell />}></Route>
+          <Route path='/accion/2/remnant-from-the-ashes' element={<RemnantFromTheAshes />}></Route>
+          <Route path='/accion/2/watch-dogs-legion' element={<WatchDogsLegion />}></Route>
           {/* rutas de paginas de corto */}
           <Route path='/corto/1' element={<Corto1 />}></Route>
           <Route path='/corto/2' element={<Pagina2Corto />}></Route>

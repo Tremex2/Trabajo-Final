@@ -4,7 +4,7 @@ import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
 
-export function CodeVein() {
+export function MortalShell() {
     const [contenido, setContenido] = useState(<div>
         <ul className="">
             <li className="lista-general">Version: 1.31</li>
