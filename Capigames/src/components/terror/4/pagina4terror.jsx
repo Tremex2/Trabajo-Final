@@ -4,7 +4,6 @@ import "../../boton-pagina/boton.css"
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom"
 //fotos
-import construccion from "../../../public/construccion.jpg"
 import clockTower from "../../../public/terror/4/clock-tower.jpg"
 import goneHome from "../../../public/terror/4/gone-home.jpg"
 import houseOfAshes from "../../../public/terror/4/house-of-ashes.jpg"
@@ -12,7 +11,8 @@ import sunlessSkies from "../../../public/terror/4/sunless-skies.jpg"
 import theCatLady from "../../../public/terror/4/the-cat-lady.jpg"
 import theSinkingCity from "../../../public/terror/4/the-sinking-city.jpg"
 import yummeNikki from "../../../public/terror/4/yumme-nikki.jpg"
-
+import blairWitch from "../../../public/terror/4/blair-witch.jpg"
+import silenHill4 from "../../../public/terror/4/silent-hill-4.jpg"
 
 
 export function Pagina4terror() {
@@ -50,12 +50,12 @@ export function Pagina4terror() {
                         <Link className="titulo"><h4>yumme nikki</h4></Link>
                     </div>
                     <div className="card">
-                        <img src={construccion} alt="" className="image" />
-                        <Link className="titulo"><h4>no terminado</h4></Link>
+                        <img src={blairWitch} alt="" className="image" />
+                        <Link className="titulo"><h4>Blair Witch</h4></Link>
                     </div>
                     <div className="card">
-                        <img src={construccion} alt="" className="image" />
-                        <Link className="titulo"><h4>no terminado</h4></Link>
+                        <img src={silenHill4} alt="" className="image" />
+                        <Link className="titulo"><h4>Silent Hill 4</h4></Link>
                     </div>
                 </div>
             </div>
