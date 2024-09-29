@@ -133,14 +133,51 @@ function App() {
           <Route path='/terror/3' element={<Pagina3terror />}></Route>
           <Route path='/terror/4' element={<Pagina4terror />}></Route>
           {/* rutas de juegos de terror */}
+          <Route path='/terror/1/amnesia' element={</>}></Route>
+      <Route path='/terror/1/layers-of-fear' element={</>}></Route >
+          <Route path='/terror/1/little-nightmares-2' element={</>}></Route>
+          <Route path='/terror/1/little-nightmares' element={</>}></Route>
+          <Route path='/terror/1/outlast' element={</>}></Route>
+          <Route path='/terror/1/outlast-2' element={</>}></Route>
+          <Route path='/terror/1/phasmophobia' element={</>}></Route>
+          <Route path='/terror/1/silent-hill-2' element={</>}></Route>
+          <Route path='/terror/1/soma' element={</>}></Route>
 
+          <Route path='/terror/1/until-dawn' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
 
-          {/* rutas de paginas de accion */}
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+          <Route path='/terror/1/' element={</>}></Route>
+{/* rutas de paginas de accion */ }
           <Route path='/accion/1' element={<Pagina1Accion />}></Route>
           <Route path='/accion/2' element={<Pagina2Accion />}></Route>
           <Route path='/accion/3' element={<Pagina3Accion />}></Route>
           <Route path='/accion/4' element={<Pagina4accion />}></Route>
-          {/* rutas de juegos de accion */}
+{/* rutas de juegos de accion */ }
           <Route path='/accion/1/rdr2' element={<Rdr2 />}></Route>
           <Route path='/accion/1/ultrakill' element={<Ultrakill />}></Route>
           <Route path='/accion/1/doom-eternal' element={<DoomEternal />}></Route>
@@ -180,24 +217,24 @@ function App() {
           <Route path='/accion/4/nioh-2' element={<Nioh2 />}></Route>
           <Route path='/accion/4/sekiro-shadows-die-twice' element={<SekiroShadowsDieTwice />}></Route>
           <Route path='/accion/4/ghost-of-tushima' element={<GhostOfTushima />}></Route>
-          {/* rutas de paginas de corto */}
+{/* rutas de paginas de corto */ }
           <Route path='/corto/1' element={<Corto1 />}></Route>
           <Route path='/corto/2' element={<Pagina2Corto />}></Route>
           <Route path='/corto/3' element={<Pagina3Corto />}></Route>
           <Route path='/corto/4' element={<Pagina4Corto />}></Route>
-          {/* rutas de juegos de corto */}
-          {/* rutas de paginas de 2D */}
+{/* rutas de juegos de corto */ }
+{/* rutas de paginas de 2D */ }
           <Route path='/2D/1' element={<SD1 />}></Route>
           <Route path='/2D/2' element={<Pagina22D />}></Route>
           <Route path='/2D/3' element={<Pagina32D />}></Route>
           <Route path='/2D/4' element={<Pagina42D />}></Route>
-          {/* rutas de juegos de 2D */}
-          {/* rutas de paginas de primera persona */}
+{/* rutas de juegos de 2D */ }
+{/* rutas de paginas de primera persona */ }
           <Route path='/primera-persona/1' element={<PrimeraPersona1 />}></Route>
           <Route path='/primera-persona/2' element={<Pagina2primerapersona />}></Route>
           <Route path='/primera-persona/3' element={<Pagina3primerapersona />}></Route>
           <Route path='/primera-persona/4' element={<Pagina4primerapersona />}></Route>
-          {/* rutas de juegos de primera persona */}
+{/* rutas de juegos de primera persona */ }
         </Routes >
       </BrowserRouter >
     </>
