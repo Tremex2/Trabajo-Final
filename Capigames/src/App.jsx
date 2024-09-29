@@ -64,9 +64,52 @@ import { Pagina32D } from './components/2D/3/pagina32D'
 import { Pagina42D } from './components/2D/4/pagina42D'
 
 import { Terror1 } from './components/terror/1/pagina1terror'
+
+import { Amnesia } from './components/terror/juegos/1/amnesia'
+import { LayersOfFear } from './components/terror/juegos/1/layersOfFear'
+import { LittleNightmares } from './components/terror/juegos/1/littleNightmares'
+import { LittleNightmares2 } from './components/terror/juegos/1/littleNighmares2'
+import { Outlast } from './components/terror/juegos/1/outlast'
+import { Outlast2 } from './components/terror/juegos/1/outlast2'
+import { Phasmophobia } from './components/terror/juegos/1/phasmophobia'
+import { SilentHill2 } from './components/terror/juegos/1/silentHill2'
+import { Soma } from './components/terror/juegos/1/soma'
+
 import { Pagina2terror } from './components/terror/2/pagina2terror'
+
+import { UntilDawn } from './components/terror/juegos/2/untilDawn'
+import { SilentHill1993 } from './components/terror/juegos/2/silentHill1993'
+import { SilentAlone } from './components/terror/juegos/2/silentAlone'
+import { HelloNeighbor } from './components/terror/juegos/2/helloNeighbor'
+import { GabrielKnight } from './components/terror/juegos/2/gabrielKnight'
+import { Fnaf } from './components/terror/juegos/2/fnaf'
+import { EternalDarkness } from './components/terror/juegos/2/eternalDarkness'
+import { DDLC } from './components/terror/juegos/2/ddlc'
+import { SeptimoGuest } from './components/terror/juegos/2/7hguest'
+
 import { Pagina3terror } from './components/terror/3/pagina3terror'
+
+import { Carrion } from './components/terror/juegos/3/carrion'
+import { Visage } from './components/terror/juegos/3/visage'
+import { TheVanishingOfEvanCarter } from './components/terror/juegos/3/theVanishingOfEvanCarter'
+import { TheLastDoor } from './components/terror/juegos/3/theLastDoor'
+import { TheForest } from './components/terror/juegos/3/theForest'
+import { DarkestDungeon } from './components/terror/juegos/3/darkestDungeon'
+import { CondemnedCriminal } from './components/terror/juegos/3/condemnedCriminalOrigins'
+import { CallOfCuthulhu } from './components/terror/juegos/3/callOfCuthulhu'
+import { Back4Blood } from './components/terror/juegos/3/back4Blood'
+
 import { Pagina4terror } from './components/terror/4/pagina4terror'
+
+import { SilentHill4 } from './components/terror/juegos/4/silentHill4'
+import { BlairWitch } from './components/terror/juegos/4/blairWitch'
+import { YummeNikki } from './components/terror/juegos/4/yummeNikki'
+import { TheSinkingCity } from './components/terror/juegos/4/theSinkingCity'
+import { TheCatLady } from './components/terror/juegos/4/theCatLady'
+import { SunlessSkies } from './components/terror/juegos/4/sunlessSkies'
+import { HouseOfAshes } from './components/terror/juegos/4/houseOfAshes'
+import { GoneHome } from './components/terror/juegos/4/goneHome'
+import { ClockTower } from './components/terror/juegos/4/clockTower'
 
 import { PrimeraPersona1 } from './components/primera-persona/1/pagina1primerapersona'
 import { Pagina2primerapersona } from './components/primera-persona/2/pagina2primerapersona'
@@ -90,6 +133,8 @@ function App() {
           <Route path='/terror/3' element={<Pagina3terror />}></Route>
           <Route path='/terror/4' element={<Pagina4terror />}></Route>
           {/* rutas de juegos de terror */}
+
+
           {/* rutas de paginas de accion */}
           <Route path='/accion/1' element={<Pagina1Accion />}></Route>
           <Route path='/accion/2' element={<Pagina2Accion />}></Route>
