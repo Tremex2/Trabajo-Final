@@ -22,39 +22,39 @@ export function Pagina3terror() {
                 <div className="grid">
                     <div className="card">
                         <img src={b4d} alt="" className="image" />
-                        <Link className="titulo"><h4>back 4 blood</h4></Link>
+                        <Link className="titulo" to={"/terror/3/back-4-blood"}><h4>back 4 blood</h4></Link>
                     </div>
                     <div className="card">
                         <img src={callOfCuthulhu} alt="" className="image" />
-                        <Link className="titulo"><h4>Call of cuthulhu</h4></Link>
+                        <Link className="titulo" to={"/terror/3/call-of-cuthulhu"}><h4>Call of cuthulhu</h4></Link>
                     </div>
                     <div className="card">
                         <img src={condemned} alt="" className="image" />
-                        <Link className="titulo"><h4>Condemned</h4></Link>
+                        <Link className="titulo" to={"/terror/3/condemned-criminal-origins"}><h4>Condemned</h4></Link>
                     </div>
                     <div className="card">
                         <img src={darkestDungeon} alt="" className="image" />
-                        <Link className="titulo"><h4>Darkest Dungeon</h4></Link>
+                        <Link className="titulo" to={"/terror/3/darkest-dungeon"}><h4>Darkest Dungeon</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theForest} alt="" className="image" />
-                        <Link className="titulo"><h4>The forest</h4></Link>
+                        <Link className="titulo" to={"/terror/3/the-forest"}><h4>The forest</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theLastDoor} alt="" className="image" />
-                        <Link className="titulo"><h4>The last door</h4></Link>
+                        <Link className="titulo" to={"/terror/3/the-last-door"}><h4>The last door</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theVanishing} alt="" className="image" />
-                        <Link className="titulo"><h4>The vanishing Ethan Carter</h4></Link>
+                        <Link className="titulo" to={"/terror/3/the-vanishing-of-evan-carter"}><h4>The vanishing Ethan Carter</h4></Link>
                     </div>
                     <div className="card">
                         <img src={visage} alt="" className="image" />
-                        <Link className="titulo"><h4>Visage</h4></Link>
+                        <Link className="titulo" to={"/terror/3/visage"}><h4>Visage</h4></Link>
                     </div>
                     <div className="card">
                         <img src={carrion} alt="" className="image" />
-                        <Link className="titulo"><h4>Carrion</h4></Link>
+                        <Link className="titulo" to={"/terror/3/carrion"}><h4>Carrion</h4></Link>
                     </div>
                 </div>
             </div>

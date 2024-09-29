@@ -143,35 +143,35 @@ function App() {
           <Route path='/terror/1/silent-hill-2' element={<SilentHill2 />}></Route>
           <Route path='/terror/1/soma' element={<Soma />}></Route>
 
-          <Route path='/terror/1/until-dawn' element={<UntilDawn />}></Route>
-          <Route path='/terror/1/silent-hill-1993' element={<SilentHill1993 />}></Route>
-          <Route path='/terror/1/7h-guest' element={<SeptimoGuest />}></Route>
-          <Route path='/terror/1/ddlc' element={<DDLC />}></Route>
-          <Route path='/terror/1/eternal-darkness' element={<EternalDarkness />}></Route>
-          <Route path='/terror/1/fnaf' element={<Fnaf />}></Route>
-          <Route path='/terror/1/gabriel-knight' element={<GabrielKnight />}></Route>
-          <Route path='/terror/1/hello-neighbor' element={<HelloNeighbor />}></Route>
-          <Route path='/terror/1/silent-alone' element={<SilentAlone />}></Route>
+          <Route path='/terror/2/until-dawn' element={<UntilDawn />}></Route>
+          <Route path='/terror/2/silent-hill-1993' element={<SilentHill1993 />}></Route>
+          <Route path='/terror/2/7h-guest' element={<SeptimoGuest />}></Route>
+          <Route path='/terror/2/ddlc' element={<DDLC />}></Route>
+          <Route path='/terror/2/eternal-darkness' element={<EternalDarkness />}></Route>
+          <Route path='/terror/2/fnaf' element={<Fnaf />}></Route>
+          <Route path='/terror/2/gabriel-knight' element={<GabrielKnight />}></Route>
+          <Route path='/terror/2/hello-neighbor' element={<HelloNeighbor />}></Route>
+          <Route path='/terror/2/silent-alone' element={<SilentAlone />}></Route>
 
-          <Route path='/terror/1/back-4-blood' element={<Back4Blood />}></Route>
-          <Route path='/terror/1/call-of-cuthulhu' element={<CallOfCuthulhu />}></Route>
-          <Route path='/terror/1/carrion' element={<Carrion />}></Route>
-          <Route path='/terror/1/condemned-criminal-origins' element={<CondemnedCriminal />}></Route>
-          <Route path='/terror/1/darkest-dungeon' element={<DarkestDungeon />}></Route>
-          <Route path='/terror/1/the-forest' element={<TheForest />}></Route>
-          <Route path='/terror/1/the-last-door' element={<TheLastDoor />}></Route>
-          <Route path='/terror/1/the-vanishing-of-evan-carter' element={<TheVanishingOfEvanCarter />}></Route>
-          <Route path='/terror/1/visage' element={<Visage />}></Route>
+          <Route path='/terror/3/back-4-blood' element={<Back4Blood />}></Route>
+          <Route path='/terror/3/call-of-cuthulhu' element={<CallOfCuthulhu />}></Route>
+          <Route path='/terror/3/carrion' element={<Carrion />}></Route>
+          <Route path='/terror/3/condemned-criminal-origins' element={<CondemnedCriminal />}></Route>
+          <Route path='/terror/3/darkest-dungeon' element={<DarkestDungeon />}></Route>
+          <Route path='/terror/3/the-forest' element={<TheForest />}></Route>
+          <Route path='/terror/3/the-last-door' element={<TheLastDoor />}></Route>
+          <Route path='/terror/3/the-vanishing-of-evan-carter' element={<TheVanishingOfEvanCarter />}></Route>
+          <Route path='/terror/3/visage' element={<Visage />}></Route>
 
-          <Route path='/terror/1/blair-witch' element={<BlairWitch />}></Route>
-          <Route path='/terror/1/clock-tower' element={<ClockTower />}></Route>
-          <Route path='/terror/1/gone-home' element={<GoneHome />}></Route>
-          <Route path='/terror/1/house-of-ashes' element={<HouseOfAshes />}></Route>
-          <Route path='/terror/1/silent-hill-4' element={<SilentHill4 />}></Route>
-          <Route path='/terror/1/sunless-skies' element={<SunlessSkies />}></Route>
-          <Route path='/terror/1/the-cat-lady' element={<TheCatLady />}></Route>
-          <Route path='/terror/1/the-sinking-city' element={<TheSinkingCity />}></Route>
-          <Route path='/terror/1/yumme-nikki' element={<YummeNikki />}></Route>
+          <Route path='/terror/4/blair-witch' element={<BlairWitch />}></Route>
+          <Route path='/terror/4/clock-tower' element={<ClockTower />}></Route>
+          <Route path='/terror/4/gone-home' element={<GoneHome />}></Route>
+          <Route path='/terror/4/house-of-ashes' element={<HouseOfAshes />}></Route>
+          <Route path='/terror/4/silent-hill-4' element={<SilentHill4 />}></Route>
+          <Route path='/terror/4/sunless-skies' element={<SunlessSkies />}></Route>
+          <Route path='/terror/4/the-cat-lady' element={<TheCatLady />}></Route>
+          <Route path='/terror/4/the-sinking-city' element={<TheSinkingCity />}></Route>
+          <Route path='/terror/4/yumme-nikki' element={<YummeNikki />}></Route>
           {/* rutas de paginas de accion */}
           <Route path='/accion/1' element={<Pagina1Accion />}></Route>
           <Route path='/accion/2' element={<Pagina2Accion />}></Route>
