@@ -54,9 +54,53 @@ import { GhostOfTushima } from './components/accion/juegos/4/ghostOfTushima'
 
 
 import { Corto1 } from './components/corto/1/pagina1corto'
+
+import { Hike } from './components/corto/juegos/1/hike'
+import { Firewatch } from './components/corto/juegos/1/firewatch'
+import { Gris } from './components/corto/juegos/1/gris'
+import { Inside } from './components/corto/juegos/1/inside'
+import { Journey } from './components/corto/juegos/1/journey'
+import { OxenFree } from './components/corto/juegos/1/oxenfree'
+import { TheBegginersGuide } from './components/corto/juegos/1/theBegginerGuide'
+import { ToTheMoon } from './components/corto/juegos/1/toTheMoon'
+import { WhatRemainsOfEdithFinch } from './components/corto/juegos/1/whatRemainsOfEdithFinch'
+
+
 import { Pagina2Corto } from './components/corto/2/pagina2corto'
+
+import { Abzu } from './components/corto/juegos/2/abzu'
+import { DearEsther } from './components/corto/juegos/2/dearEsther'
+import { Flower } from './components/corto/juegos/2/flower'
+import { HerStory } from './components/corto/juegos/2/herHistory'
+import { DonutCountry } from './components/corto/juegos/2/donutCountry'
+import { StanleyParable } from './components/corto/juegos/2/stanleyParable'
+import { Tacoma } from './components/corto/juegos/2/tacoma'
+import { TheRoom } from './components/corto/juegos/2/theRoom'
+import { TheUnfinishedSwan } from './components/corto/juegos/2/theUnfinishedSwan'
+
 import { Pagina3Corto } from './components/corto/3/pagina3corto'
+
+import { EveryBodyIsGone } from './components/corto/juegos/3/everyBodyIsGone'
+import { Observation } from './components/corto/juegos/3/observation'
+import { OuterWild } from './components/corto/juegos/3/outerWilds'
+import { TellingLies } from './components/corto/juegos/3/tellingLies'
+import { TheLastCampfire } from './components/corto/juegos/3/the-last-campfire'
+import { Virginia } from './components/corto/juegos/3/virginia'
+import { MaifoldGarden } from './components/corto/juegos/3/maifoldGarden'
+import { SuperLiminal } from './components/corto/juegos/3/superliminal'
+import { TheWitness } from './components/corto/juegos/3/theWitness'
+
 import { Pagina4Corto } from './components/corto/4/pagina4corto'
+
+import { BeforeYourEyes } from './components/corto/juegos/4/beforeYourEyes'
+import { Bound } from './components/corto/juegos/4/bound'
+import { Maquette } from './components/corto/juegos/4/maquette'
+import { Oneshot } from './components/corto/juegos/4/oneshot'
+import { TheBradwellConspiration } from './components/corto/juegos/4/theBradwellConspiration'
+import { TheMagicCircle } from './components/corto/juegos/4/theMagicCircle'
+import { TheRedStringsClub } from './components/corto/juegos/4/theRedStringsClub'
+import { TheSuicideOfRachelFoster } from './components/corto/juegos/4/theSuicideOfRachelFoster'
+import { EnderLilies } from './components/corto/juegos/4/enderLilies'
 
 import { SD1 } from './components/2D/1/pagina12D'
 import { Pagina22D } from './components/2D/2/pagina22D'
@@ -223,6 +267,47 @@ function App() {
           <Route path='/corto/3' element={<Pagina3Corto />}></Route>
           <Route path='/corto/4' element={<Pagina4Corto />}></Route>
           {/* rutas de juegos de corto */}
+
+          <Route path='/corto/2/' element={<Hike />}></Route>
+          <Route path='/corto/2/' element={<Firewatch />}></Route>
+          <Route path='/corto/2/' element={<Gris />}></Route>
+          <Route path='/corto/2/' element={<Inside />}></Route>
+          <Route path='/corto/2/' element={<Journey />}></Route>
+          <Route path='/corto/2/' element={<OxenFree />}></Route>
+          <Route path='/corto/2/' element={<TheBegginersGuide />}></Route>
+          <Route path='/corto/2/' element={<ToTheMoon />}></Route>
+          <Route path='/corto/2/' element={<WhatRemainsOfEdithFinch />}></Route>
+
+          <Route path='/corto/2/' element={<Abzu />}></Route>
+          <Route path='/corto/2/' element={<DearEsther />}></Route>
+          <Route path='/corto/2/' element={<HerStory />}></Route>
+          <Route path='/corto/2/' element={<DonutCountry />}></Route>
+          <Route path='/corto/2/' element={<StanleyParable />}></Route>
+          <Route path='/corto/2/' element={<Tacoma />}></Route>
+          <Route path='/corto/2/' element={<TheRoom />}></Route>
+          <Route path='/corto/2/' element={<TheUnfinishedSwan />}></Route>
+          <Route path='/corto/2/' element={<Flower />}></Route>
+
+          <Route path='/corto/2/' element={<EveryBodyIsGone />}></Route>
+          <Route path='/corto/2/' element={<Observation />}></Route>
+          <Route path='/corto/2/' element={<OuterWild />}></Route>
+          <Route path='/corto/2/' element={<SuperLiminal />}></Route>
+          <Route path='/corto/2/' element={<TellingLies />}></Route>
+          <Route path='/corto/2/' element={<TheLastCampfire />}></Route>
+          <Route path='/corto/2/' element={<Virginia />}></Route>
+          <Route path='/corto/2/' element={<MaifoldGarden />}></Route>
+          <Route path='/corto/2/' element={<TheWitness />}></Route>
+
+          <Route path='/corto/2/' element={<BeforeYourEyes />}></Route>
+          <Route path='/corto/2/' element={<Bound />}></Route>
+          <Route path='/corto/2/' element={<EnderLilies />}></Route>
+          <Route path='/corto/2/' element={<Maquette />}></Route>
+          <Route path='/corto/2/' element={<Oneshot />}></Route>
+          <Route path='/corto/2/' element={<TheBradwellConspiration />}></Route>
+          <Route path='/corto/2/' element={<TheMagicCircle />}></Route>
+          <Route path='/corto/2/' element={<TheRedStringsClub />}></Route>
+          <Route path='/corto/2/' element={<TheSuicideOfRachelFoster />}></Route>
+
           {/* rutas de paginas de 2D */}
           <Route path='/2D/1' element={<SD1 />}></Route>
           <Route path='/2D/2' element={<Pagina22D />}></Route>

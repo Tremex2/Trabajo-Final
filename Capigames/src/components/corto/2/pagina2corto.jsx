@@ -38,7 +38,7 @@ export function Pagina2Corto() {
                     </div>
                     <div className="card">
                         <img src={sonutCountry} alt="" className="image" />
-                        <Link className="titulo"><h4>Stanley parable</h4></Link>
+                        <Link className="titulo"><h4>donut country</h4></Link>
                     </div>
                     <div className="card">
                         <img src={stanleyParable} alt="" className="image" />
