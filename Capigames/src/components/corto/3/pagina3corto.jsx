@@ -22,39 +22,39 @@ export function Pagina3Corto() {
                 <div className="grid">
                     <div className="card">
                         <img src={everybodyGoneToTheRapture} alt="" className="image" />
-                        <Link className="titulo"><h4>every body is gone</h4></Link>
+                        <Link className="titulo" to={"/corto/3/everybody-is-gone"}><h4>every body is gone</h4></Link>
                     </div>
                     <div className="card">
                         <img src={observation} alt="" className="image" />
-                        <Link className="titulo"><h4>Observation</h4></Link>
+                        <Link className="titulo" to={"/corto/3/observation"}><h4>Observation</h4></Link>
                     </div>
                     <div className="card">
                         <img src={outerWild} alt="" className="image" />
-                        <Link className="titulo"><h4>Outer Wilds</h4></Link>
+                        <Link className="titulo" to={"/corto/3/outer-wilds"}><h4>Outer Wilds</h4></Link>
                     </div>
                     <div className="card">
                         <img src={superliminal} alt="" className="image" />
-                        <Link className="titulo"><h4>Super Liminal</h4></Link>
+                        <Link className="titulo" to={"/corto/3/super-liminal"}><h4>Super Liminal</h4></Link>
                     </div>
                     <div className="card">
                         <img src={tellingLies} alt="" className="image" />
-                        <Link className="titulo"><h4>Telling Lies</h4></Link>
+                        <Link className="titulo" to={"/corto/3/telling-lies"}><h4>Telling Lies</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theLastCampfire} alt="" className="image" />
-                        <Link className="titulo"><h4>The last campfire</h4></Link>
+                        <Link className="titulo" to={"/corto/3/the-last-campfire"}><h4>The last campfire</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theWitness} alt="" className="image" />
-                        <Link className="titulo"><h4>The witness</h4></Link>
+                        <Link className="titulo" to={"/corto/3/the-witness"}><h4>The witness</h4></Link>
                     </div>
                     <div className="card">
                         <img src={virginia} alt="" className="image" />
-                        <Link className="titulo"><h4>Virginia</h4></Link>
+                        <Link className="titulo" to={"/corto/3/virginia"}><h4>Virginia</h4></Link>
                     </div>
                     <div className="card">
                         <img src={maifoldGarden} alt="" className="image" />
-                        <Link className="titulo"><h4>maifold garden</h4></Link>
+                        <Link className="titulo" to={"/corto/3/maifold-garden"}><h4>maifold garden</h4></Link>
                     </div>
                 </div>
             </div>

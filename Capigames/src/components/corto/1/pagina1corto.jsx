@@ -23,39 +23,39 @@ export function Corto1() {
                 <div className="grid">
                     <div className="card">
                         <img src={hike} alt="" className="image" />
-                        <Link className="titulo"><h4>A short hike</h4></Link>
+                        <Link className="titulo" to={"/corto/1/hike"}><h4>A short hike</h4></Link>
                     </div>
                     <div className="card">
                         <img src={firewach} alt="" className="image" />
-                        <Link className="titulo"><h4>Firewach</h4></Link>
+                        <Link className="titulo" to={"/corto/1/firewatch"}><h4>Firewach</h4></Link>
                     </div>
                     <div className="card">
                         <img src={gris} alt="" className="image" />
-                        <Link className="titulo"><h4>Gris</h4></Link>
+                        <Link className="titulo" to={"/corto/1/girs"}><h4>Gris</h4></Link>
                     </div>
                     <div className="card">
                         <img src={inside} alt="" className="image" />
-                        <Link className="titulo"><h4>INSIDE</h4></Link>
+                        <Link className="titulo" to={"/corto/1/inside"}><h4>INSIDE</h4></Link>
                     </div>
                     <div className="card">
                         <img src={journey} alt="" className="image" />
-                        <Link className="titulo"><h4>Journey</h4></Link>
+                        <Link className="titulo" to={"/corto/1/journey"}><h4>Journey</h4></Link>
                     </div>
                     <div className="card">
                         <img src={oxenfree} alt="" className="image" />
-                        <Link className="titulo"><h4>Oxenfree</h4></Link>
+                        <Link className="titulo" to={"/corto/1/oxenfree"}><h4>Oxenfree</h4></Link>
                     </div>
                     <div className="card">
                         <img src={begginers} alt="" className="image" />
-                        <Link className="titulo"><h4>The begginers guide</h4></Link>
+                        <Link className="titulo" to={"/corto/1/the-begginers-guide"}><h4>The begginers guide</h4></Link>
                     </div>
                     <div className="card">
                         <img src={moon} alt="" className="image" />
-                        <Link className="titulo"><h4>To the moon</h4></Link>
+                        <Link className="titulo" to={"/corto/1/to-the-moon"}><h4>To the moon</h4></Link>
                     </div>
                     <div className="card">
                         <img src={finch} alt="" className="image" />
-                        <Link className="titulo"><h4>What remains of edith finch</h4></Link>
+                        <Link className="titulo" to={"/corto/1/what-remains-of-edith-finch"}><h4>What remains of edith finch</h4></Link>
                     </div>
                 </div>
             </div>
