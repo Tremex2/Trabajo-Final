@@ -23,39 +23,39 @@ export function Pagina22D() {
                 <div className="grid">
                     <div className="card">
                         <img src={axiomVerge} alt="" className="image" />
-                        <Link className="titulo"><h4>Axiom verge</h4></Link>
+                        <Link className="titulo" to={"/2D/2/axiom-verge"}><h4>Axiom verge</h4></Link>
                     </div>
                     <div className="card">
                         <img src={cupheah} alt="" className="image" />
-                        <Link className="titulo"><h4>Cuphead</h4></Link>
+                        <Link className="titulo" to={"/2D/2/cuphead"}><h4>Cuphead</h4></Link>
                     </div>
                     <div className="card">
                         <img src={deadCells} alt="" className="image" />
-                        <Link className="titulo"><h4>Dead Cells</h4></Link>
+                        <Link className="titulo" to={"/2D/2/dead-cells"}><h4>Dead Cells</h4></Link>
                     </div>
                     <div className="card">
                         <img src={enterTheGungeon} alt="" className="image" />
-                        <Link className="titulo"><h4>Enter the gungeon</h4></Link>
+                        <Link className="titulo" to={"/2D/2/enter-the-gungeon"}><h4>Enter the gungeon</h4></Link>
                     </div>
                     <div className="card">
                         <img src={hyperLightDrifter} alt="" className="image" />
-                        <Link className="titulo"><h4>Hyper Light Drifter</h4></Link>
+                        <Link className="titulo" to={"/2D/2/hyper-light-drifter"}><h4>Hyper Light Drifter</h4></Link>
                     </div>
                     <div className="card">
                         <img src={limbo} alt="" className="image" />
-                        <Link className="titulo"><h4>Limbo</h4></Link>
+                        <Link className="titulo" to={"/2D/2/limbo"}><h4>Limbo</h4></Link>
                     </div>
                     <div className="card">
                         <img src={oriAndTheBlindForest} alt="" className="image" />
-                        <Link className="titulo"><h4>Ori and the blind forest</h4></Link>
+                        <Link className="titulo" to={"/2D/2/ori-and-the-blind-forest"}><h4>Ori and the blind forest</h4></Link>
                     </div>
                     <div className="card">
                         <img src={shovelKnight} alt="" className="image" />
-                        <Link className="titulo"><h4>Shovel knight</h4></Link>
+                        <Link className="titulo" to={"/2D/2/shovel-knight"}><h4>Shovel knight</h4></Link>
                     </div>
                     <div className="card">
                         <img src={superMeatBoy} alt="" className="image" />
-                        <Link className="titulo"><h4>Super meat boy</h4></Link>
+                        <Link className="titulo" to={"/2D/2/super-meat-boy"}><h4>Super meat boy</h4></Link>
                     </div>
                 </div>
             </div>

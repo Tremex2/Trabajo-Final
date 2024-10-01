@@ -22,39 +22,39 @@ export function Pagina32D() {
                 <div className="grid">
                     <div className="card">
                         <img src={braid} alt="" className="image" />
-                        <Link className="titulo"><h4>Braid</h4></Link>
+                        <Link className="titulo" to={"/2D/3/braid"}><h4>Braid</h4></Link>
                     </div>
                     <div className="card">
                         <img src={childOfLight} alt="" className="image" />
-                        <Link className="titulo"><h4>child of the light</h4></Link>
+                        <Link className="titulo" to={"/2D/3/child-of-the-light"}><h4>child of the light</h4></Link>
                     </div>
                     <div className="card">
                         <img src={guacamelee} alt="" className="image" />
-                        <Link className="titulo"><h4>guacamelee!</h4></Link>
+                        <Link className="titulo" to={"/2D/3/guacamelee"}><h4>guacamelee!</h4></Link>
                     </div>
                     <div className="card">
                         <img src={markOfTheNinja} alt="" className="image" />
-                        <Link className="titulo"><h4>Mark of the ninja</h4></Link>
+                        <Link className="titulo" to={"/2D/3/mark-of-the-ninja"}><h4>Mark of the ninja</h4></Link>
                     </div>
                     <div className="card">
                         <img src={owlboy} alt="" className="image" />
-                        <Link className="titulo"><h4>Owlboy</h4></Link>
+                        <Link className="titulo" to={"/2D/3/owlboy"}><h4>Owlboy</h4></Link>
                     </div>
                     <div className="card">
                         <img src={rogueLegacy2} alt="" className="image" />
-                        <Link className="titulo"><h4>rogue legacy 2</h4></Link>
+                        <Link className="titulo" to={"/2D/3/rogue-legacy-2"}><h4>rogue legacy 2</h4></Link>
                     </div>
                     <div className="card">
                         <img src={saltAndTheSectuary} alt="" className="image" />
-                        <Link className="titulo"><h4>salt and the sectuary</h4></Link>
+                        <Link className="titulo" to={"/2D/3/salt-and-the-sectuary"}><h4>salt and the sectuary</h4></Link>
                     </div>
                     <div className="card">
                         <img src={spelunky} alt="" className="image" />
-                        <Link className="titulo"><h4>spelunky</h4></Link>
+                        <Link className="titulo" to={"/2D/3/spelunky"}><h4>spelunky</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theMessenger} alt="" className="image" />
-                        <Link className="titulo"><h4>The messenger</h4></Link>
+                        <Link className="titulo" to={"/2D/3/the-messenger"}><h4>The messenger</h4></Link>
                     </div>
                 </div>
             </div>

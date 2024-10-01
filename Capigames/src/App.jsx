@@ -103,9 +103,53 @@ import { TheSuicideOfRachelFoster } from './components/corto/juegos/4/theSuicide
 import { EnderLilies } from './components/corto/juegos/4/enderLilies'
 
 import { SD1 } from './components/2D/1/pagina12D'
+
+import { Celeste } from './components/2D/juegos/1/celeste'
+import { HollowKnight } from './components/2D/juegos/1/hollowKnight'
+import { HotlineMiami } from './components/2D/juegos/1/hotlineMiami'
+import { HotlineMiami2 } from './components/2D/juegos/1/hotlineMiami2'
+import { MarioBros } from './components/2D/juegos/1/marioBros'
+import { SilkSong } from './components/2D/juegos/1/silkSong'
+import { StardewValley } from './components/2D/juegos/1/stardewValley'
+import { Terraria } from './components/2D/juegos/1/terraria'
+import { Undertale } from './components/2D/juegos/1/undertale'
+
+
 import { Pagina22D } from './components/2D/2/pagina22D'
+
+import { AxiomVerge } from './components/2D/juegos/2/axiomVerge'
+import { Cuphead } from './components/2D/juegos/2/cuphead'
+import { DeadCells } from './components/2D/juegos/2/deadCells'
+import { HyperLightDrifter } from './components/2D/juegos/2/hyperLightDrifter'
+import { Limbo } from './components/2D/juegos/2/limbo'
+import { OriAndTheBlindForest } from './components/2D/juegos/2/oriAndTheBlidForest'
+import { ShovelKnight } from './components/2D/juegos/2/shovelKnight'
+import { SuperMeatBoy } from './components/2D/juegos/2/superMeatBoy'
+import { EnterTheGungeon } from './components/2D/juegos/2/enterTheGungeon'
+
 import { Pagina32D } from './components/2D/3/pagina32D'
+
+import { Braid } from './components/2D/juegos/3/braid'
+import { ChildOfTheLight } from './components/2D/juegos/3/childOfLight'
+import { Guacamelee } from './components/2D/juegos/3/guacamelee!'
+import { MarkOfTheNinja } from './components/2D/juegos/3/markOfTheNinja'
+import { RogueLegacy } from './components/2D/juegos/3/rogueLegacy'
+import { SaltAndTheSectuary } from './components/2D/juegos/3/saltAndTheSectuary'
+import { TheMessenger } from './components/2D/juegos/3/theMessenger'
+import { Owlboy } from './components/2D/juegos/3/owlboy'
+import { Spelunky } from './components/2D/juegos/3/spelunky'
+
 import { Pagina42D } from './components/2D/4/pagina42D'
+
+import { Blasphemous } from './components/2D/juegos/4/blasphemous'
+import { Broforce } from './components/2D/juegos/4/broforce'
+import { CaveHistory } from './components/2D/juegos/4/caveHistory'
+import { KatanaZero } from './components/2D/juegos/4/katanaZero'
+import { NightInTheWoods } from './components/2D/juegos/4/nightInTheWoods'
+import { SlainBackFromHell } from './components/2D/juegos/4/slainBackFromHell'
+import { RiskOfRain } from './components/2D/juegos/4/riskOfRain'
+import { StreamWordlDig2 } from './components/2D/juegos/4/streamWordlDig2'
+import { IconoClasts } from './components/2D/juegos/4/iconoclasts'
 
 import { Terror1 } from './components/terror/1/pagina1terror'
 
@@ -268,45 +312,45 @@ function App() {
           <Route path='/corto/4' element={<Pagina4Corto />}></Route>
           {/* rutas de juegos de corto */}
 
-          <Route path='/corto/2/' element={<Hike />}></Route>
-          <Route path='/corto/2/' element={<Firewatch />}></Route>
-          <Route path='/corto/2/' element={<Gris />}></Route>
-          <Route path='/corto/2/' element={<Inside />}></Route>
-          <Route path='/corto/2/' element={<Journey />}></Route>
-          <Route path='/corto/2/' element={<OxenFree />}></Route>
-          <Route path='/corto/2/' element={<TheBegginersGuide />}></Route>
-          <Route path='/corto/2/' element={<ToTheMoon />}></Route>
-          <Route path='/corto/2/' element={<WhatRemainsOfEdithFinch />}></Route>
+          <Route path='/corto/1/hike' element={<Hike />}></Route>
+          <Route path='/corto/1/firewatch' element={<Firewatch />}></Route>
+          <Route path='/corto/1/gris' element={<Gris />}></Route>
+          <Route path='/corto/1/inside' element={<Inside />}></Route>
+          <Route path='/corto/1/journey' element={<Journey />}></Route>
+          <Route path='/corto/1/oxenfree' element={<OxenFree />}></Route>
+          <Route path='/corto/1/the-begginers-guide' element={<TheBegginersGuide />}></Route>
+          <Route path='/corto/1/to-the-moon' element={<ToTheMoon />}></Route>
+          <Route path='/corto/1/what-remains-of-edith-finch' element={<WhatRemainsOfEdithFinch />}></Route>
 
-          <Route path='/corto/2/' element={<Abzu />}></Route>
-          <Route path='/corto/2/' element={<DearEsther />}></Route>
-          <Route path='/corto/2/' element={<HerStory />}></Route>
-          <Route path='/corto/2/' element={<DonutCountry />}></Route>
-          <Route path='/corto/2/' element={<StanleyParable />}></Route>
-          <Route path='/corto/2/' element={<Tacoma />}></Route>
-          <Route path='/corto/2/' element={<TheRoom />}></Route>
-          <Route path='/corto/2/' element={<TheUnfinishedSwan />}></Route>
-          <Route path='/corto/2/' element={<Flower />}></Route>
+          <Route path='/corto/2/abzu' element={<Abzu />}></Route>
+          <Route path='/corto/2/dear-esther' element={<DearEsther />}></Route>
+          <Route path='/corto/2/her-history' element={<HerStory />}></Route>
+          <Route path='/corto/2/donut-country' element={<DonutCountry />}></Route>
+          <Route path='/corto/2/stanley-parable' element={<StanleyParable />}></Route>
+          <Route path='/corto/2/tacoma' element={<Tacoma />}></Route>
+          <Route path='/corto/2/the-room' element={<TheRoom />}></Route>
+          <Route path='/corto/2/the-unfinished-swan' element={<TheUnfinishedSwan />}></Route>
+          <Route path='/corto/2/flower' element={<Flower />}></Route>
 
-          <Route path='/corto/2/' element={<EveryBodyIsGone />}></Route>
-          <Route path='/corto/2/' element={<Observation />}></Route>
-          <Route path='/corto/2/' element={<OuterWild />}></Route>
-          <Route path='/corto/2/' element={<SuperLiminal />}></Route>
-          <Route path='/corto/2/' element={<TellingLies />}></Route>
-          <Route path='/corto/2/' element={<TheLastCampfire />}></Route>
-          <Route path='/corto/2/' element={<Virginia />}></Route>
-          <Route path='/corto/2/' element={<MaifoldGarden />}></Route>
-          <Route path='/corto/2/' element={<TheWitness />}></Route>
+          <Route path='/corto/3/everybody-is-gone' element={<EveryBodyIsGone />}></Route>
+          <Route path='/corto/3/observation' element={<Observation />}></Route>
+          <Route path='/corto/3/outer-wild' element={<OuterWild />}></Route>
+          <Route path='/corto/3/super-liminal' element={<SuperLiminal />}></Route>
+          <Route path='/corto/3/telling-lies' element={<TellingLies />}></Route>
+          <Route path='/corto/3/the-last-campfire' element={<TheLastCampfire />}></Route>
+          <Route path='/corto/3/virginia' element={<Virginia />}></Route>
+          <Route path='/corto/3/maifold-garden' element={<MaifoldGarden />}></Route>
+          <Route path='/corto/3/the-witness' element={<TheWitness />}></Route>
 
-          <Route path='/corto/2/' element={<BeforeYourEyes />}></Route>
-          <Route path='/corto/2/' element={<Bound />}></Route>
-          <Route path='/corto/2/' element={<EnderLilies />}></Route>
-          <Route path='/corto/2/' element={<Maquette />}></Route>
-          <Route path='/corto/2/' element={<Oneshot />}></Route>
-          <Route path='/corto/2/' element={<TheBradwellConspiration />}></Route>
-          <Route path='/corto/2/' element={<TheMagicCircle />}></Route>
-          <Route path='/corto/2/' element={<TheRedStringsClub />}></Route>
-          <Route path='/corto/2/' element={<TheSuicideOfRachelFoster />}></Route>
+          <Route path='/corto/4/before-your-eyes' element={<BeforeYourEyes />}></Route>
+          <Route path='/corto/4/bound' element={<Bound />}></Route>
+          <Route path='/corto/4/ender-lilies' element={<EnderLilies />}></Route>
+          <Route path='/corto/4/maquette' element={<Maquette />}></Route>
+          <Route path='/corto/4/oneshot' element={<Oneshot />}></Route>
+          <Route path='/corto/4/the-bradwell-conspiracy' element={<TheBradwellConspiration />}></Route>
+          <Route path='/corto/4/the-magic-circle' element={<TheMagicCircle />}></Route>
+          <Route path='/corto/4/the-red-strings-club' element={<TheRedStringsClub />}></Route>
+          <Route path='/corto/4/the-suicide-of-rachel-foster' element={<TheSuicideOfRachelFoster />}></Route>
 
           {/* rutas de paginas de 2D */}
           <Route path='/2D/1' element={<SD1 />}></Route>
@@ -314,6 +358,47 @@ function App() {
           <Route path='/2D/3' element={<Pagina32D />}></Route>
           <Route path='/2D/4' element={<Pagina42D />}></Route>
           {/* rutas de juegos de 2D */}
+
+          <Route path='/2D/1/celeste' element={<Celeste />}></Route>
+          <Route path='/2D/1/hollow-knight' element={<HollowKnight />}></Route>
+          <Route path='/2D/1/hotline-miami' element={<HotlineMiami />}></Route>
+          <Route path='/2D/1/hotline-miami-2' element={<HotlineMiami2 />}></Route>
+          <Route path='/2D/1/mario-bros' element={<MarioBros />}></Route>
+          <Route path='/2D/1/silksong' element={<SilkSong />}></Route>
+          <Route path='/2D/1/stardew-valley' element={<StardewValley />}></Route>
+          <Route path='/2D/1/terraria' element={<Terraria />}></Route>
+          <Route path='/2D/1/undertale' element={<Undertale />}></Route>
+
+          <Route path='/2D/2/axiom-verge' element={<AxiomVerge />}></Route>
+          <Route path='/2D/2/dead-cells' element={<DeadCells />}></Route>
+          <Route path='/2D/2/enter-the-gungeon' element={<EnterTheGungeon />}></Route>
+          <Route path='/2D/2/hyper-light-drifter' element={<HyperLightDrifter />}></Route>
+          <Route path='/2D/2/limbo' element={<Limbo />}></Route>
+          <Route path='/2D/2/ori-and-the-blind-forest' element={<OriAndTheBlindForest />}></Route>
+          <Route path='/2D/2/shovel-knight' element={<ShovelKnight />}></Route>
+          <Route path='/2D/2/super-meat-boy' element={<SuperMeatBoy />}></Route>
+          <Route path='/2D/2/cuphead' element={<Cuphead />}></Route>
+
+          <Route path='/2D/3/braid' element={<Braid />}></Route>
+          <Route path='/2D/3/child-of-the-light' element={<ChildOfTheLight />}></Route>
+          <Route path='/2D/3/guacamelee' element={<Guacamelee />}></Route>
+          <Route path='/2D/3/mark-of-the-ninja/' element={<MarkOfTheNinja />}></Route>
+          <Route path='/2D/3/owlboy' element={<Owlboy />}></Route>
+          <Route path='/2D/3/rogue-legacy' element={<RogueLegacy />}></Route>
+          <Route path='/2D/3/salt-and-the-sectuary' element={<SaltAndTheSectuary />}></Route>
+          <Route path='/2D/3/spelunky' element={<Spelunky />}></Route>
+          <Route path='/2D/3/the-messenger' element={<TheMessenger />}></Route>
+
+          <Route path='/2D/4/blasphemous' element={<Blasphemous />}></Route>
+          <Route path='/2D/4/broforce' element={<Broforce />}></Route>
+          <Route path='/2D/4/cave-history' element={<CaveHistory />}></Route>
+          <Route path='/2D/4/iconoclasts' element={<IconoClasts />}></Route>
+          <Route path='/2D/4/katana-zero' element={<KatanaZero />}></Route>
+          <Route path='/2D/4/night-in-the-woods' element={<NightInTheWoods />}></Route>
+          <Route path='/2D/4/risk-of-rain' element={<RiskOfRain />}></Route>
+          <Route path='/2D/4/slain-back-from-hell' element={<SlainBackFromHell />}></Route>
+          <Route path='/2D/4/stream-wordl-dig-2' element={<StreamWordlDig2 />}></Route>
+
           {/* rutas de paginas de primera persona */}
           <Route path='/primera-persona/1' element={<PrimeraPersona1 />}></Route>
           <Route path='/primera-persona/2' element={<Pagina2primerapersona />}></Route>

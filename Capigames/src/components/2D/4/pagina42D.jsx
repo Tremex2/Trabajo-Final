@@ -23,39 +23,39 @@ export function Pagina42D() {
                 <div className="grid">
                     <div className="card">
                         <img src={blasphemous} alt="" className="image" />
-                        <Link className="titulo"><h4>Blasphemous</h4></Link>
+                        <Link className="titulo" to={"/2D/4/blasphemous"}><h4>Blasphemous</h4></Link>
                     </div>
                     <div className="card">
                         <img src={broforce} alt="" className="image" />
-                        <Link className="titulo"><h4>Broforce</h4></Link>
+                        <Link className="titulo" to={"/2D/4/broforce"}><h4>Broforce</h4></Link>
                     </div>
                     <div className="card">
                         <img src={caveHistory} alt="" className="image" />
-                        <Link className="titulo"><h4>Cave History</h4></Link>
+                        <Link className="titulo" to={"/2D/4/cave-history"}><h4>Cave History</h4></Link>
                     </div>
                     <div className="card">
                         <img src={iconoClasts} alt="" className="image" />
-                        <Link className="titulo"><h4>Iconoclasts</h4></Link>
+                        <Link className="titulo" to={"/2D/4/iconoclasts"}><h4>Iconoclasts</h4></Link>
                     </div>
                     <div className="card">
                         <img src={katanaZero} alt="" className="image" />
-                        <Link className="titulo"><h4>Katana Zero</h4></Link>
+                        <Link className="titulo" to={"/2D/4/katana-zero"}><h4>Katana Zero</h4></Link>
                     </div>
                     <div className="card">
                         <img src={nightInTheWoods} alt="" className="image" />
-                        <Link className="titulo"><h4>Night in the woods</h4></Link>
+                        <Link className="titulo" to={"/2D/4/night-in-the-woods"}><h4>Night in the woods</h4></Link>
                     </div>
                     <div className="card">
                         <img src={riskOfRain} alt="" className="image" />
-                        <Link className="titulo"><h4>Risk of rain</h4></Link>
+                        <Link className="titulo" to={"/2D/4/risk-of-rain"}><h4>Risk of rain</h4></Link>
                     </div>
                     <div className="card">
                         <img src={slainBackFromHell} alt="" className="image" />
-                        <Link className="titulo"><h4>Slain back from hell</h4></Link>
+                        <Link className="titulo" to={"/2D/4/slain-back-from-hell"}><h4>Slain back from hell</h4></Link>
                     </div>
                     <div className="card">
                         <img src={treamWordlDig2} alt="" className="image" />
-                        <Link className="titulo"><h4>Stream Wordl Dig 2</h4></Link>
+                        <Link className="titulo" to={"/2D/4/stream-wordl-dig-2"}><h4>Stream Wordl Dig 2</h4></Link>
                     </div>
                 </div>
             </div>

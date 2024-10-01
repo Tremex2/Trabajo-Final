@@ -22,39 +22,39 @@ export function Pagina4Corto() {
                 <div className="grid">
                     <div className="card">
                         <img src={beforeYourEyes} alt="" className="image" />
-                        <Link className="titulo"><h4>Before your eyes</h4></Link>
+                        <Link className="titulo" to={"/corto/4/before-your-eyes"}><h4>Before your eyes</h4></Link>
                     </div>
                     <div className="card">
                         <img src={bound} alt="" className="image" />
-                        <Link className="titulo"><h4>Bound</h4></Link>
+                        <Link className="titulo" to={"/corto/4/bound"}><h4>Bound</h4></Link>
                     </div>
                     <div className="card">
                         <img src={enderLilies} alt="" className="image" />
-                        <Link className="titulo"><h4>Ender Lilies</h4></Link>
+                        <Link className="titulo" to={"/corto/4/ender-lilies"}><h4>Ender Lilies</h4></Link>
                     </div>
                     <div className="card">
                         <img src={maquette} alt="" className="image" />
-                        <Link className="titulo"><h4>Maquette</h4></Link>
+                        <Link className="titulo" to={"/corto/4/maquette"}><h4>Maquette</h4></Link>
                     </div>
                     <div className="card">
                         <img src={oneshot} alt="" className="image" />
-                        <Link className="titulo"><h4>Oneshot</h4></Link>
+                        <Link className="titulo" to={"/corto/4/oneshot"}><h4>Oneshot</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theBradwellConspiration} alt="" className="image" />
-                        <Link className="titulo"><h4>The bradwell conspiration</h4></Link>
+                        <Link className="titulo" to={"/corto/4/the-bradwell-conspiracy"}><h4>The bradwell conspiration</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theMagicCircle} alt="" className="image" />
-                        <Link className="titulo"><h4>The magic Circle</h4></Link>
+                        <Link className="titulo" to={"/corto/4/the-magic-circle"}><h4>The magic Circle</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theRedStringsClub} alt="" className="image" />
-                        <Link className="titulo"><h4>The red strings club</h4></Link>
+                        <Link className="titulo" to={"/corto/4/the-red-strings-club"}><h4>The red strings club</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theSuicideOfRachel} alt="" className="image" />
-                        <Link className="titulo"><h4>The suicide of Rachel Foster</h4></Link>
+                        <Link className="titulo" to={"/corto/4/the-suicide-of-rachel-foster"}><h4>The suicide of Rachel Foster</h4></Link>
                     </div>
                 </div>
             </div>
