@@ -1,0 +1,6 @@
+.imagen{
+    transition: opacity 0.5s ease-in-out;
+}
+.imagenfadeOut{
+    opacity: 0;
+}
