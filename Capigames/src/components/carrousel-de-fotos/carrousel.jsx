@@ -34,21 +34,17 @@ const ImagenCambiable = ({ imagen1, imagen2, imagen3 }) => {
     return (
         <>
             <div className='contenedor-carrousel'>
-                <div className='carrousel'>
-                    <button className='boton-carrousel-izquierdo' onClick={botonIzquierdo}>Izquierda</button>
-                    <div className='imagen-carrousel'>
-                        <div className='imagen'>
-                            <img
-                                className={`imagen ${fadeOut ? 'imagenfadeOut' : ''}`}
-                                src={imagen}
-                                alt="Carrousel"
-                                id='foto'
-                                onClick={botonIzquierdo}
-                            />
-                        </div>
-                    </div>
-                    <button className='boton-carrousel-derecho' onClick={botonDerecho}>Derecha</button>
+                <button className='boton-carrousel-izquierdo' onClick={botonIzquierdo}>Izquierda</button>
+                <div className='imagen-carrousel'>
+                    <img
+                        className={`imagen ${fadeOut ? 'imagenfadeOut' : ''}`}
+                        src={imagen}
+                        alt="Carrousel"
+                        id='foto'
+                        onClick={botonIzquierdo}
+                    />
                 </div>
+                <button className='boton-carrousel-derecho' onClick={botonDerecho}>Derecha</button>
             </div>
         </>
     );
