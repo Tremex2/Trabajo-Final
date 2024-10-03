@@ -1,0 +1,285 @@
+@keyframes Levitar{
+        0% {
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            transform: translatey(0px);
+        }
+    
+        50% {
+            box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+            transform: translatey(-20px);
+        }
+    
+        100% {
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            transform: translatey(0px);
+        }
+}
+.imagen-bienvenida {
+    text-align: center;
+    
+}
+.imagen-bienvenida img{
+    aspect-ratio: 1/1;
+    width: 25vw;
+    border-radius: 10px ;
+    margin: 40px;
+}
+.bienvenida-titulo{
+  border: 10px solid rgb(182, 178, 178);
+    order: 2;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Jost;
+    font-style: italic;
+}
+ 
+#capigames{
+    animation: Levitar 5s infinite;
+}
+@font-face {
+    font-family: Jost;
+    src: url(../../fonts/Jost/);
+}
+.div-padre{
+    display: grid;
+  grid-template-columns:1fr 1fr 1fr; 
+  gap: 30px; 
+  height: 200px; 
+  margin-right: 10px; 
+       margin-left: 10px; 
+}
+.recomen{
+    justify-content: center; 
+  align-items: center; 
+    order: 1;
+    border: 10px solid rgb(182, 178, 178);
+    color: white;
+    font-family: Jost;
+    font-style: italic;
+}
+.juegocreador{
+    height: 100px; 
+  background-color: rgb(1, 31, 41);
+  margin: 15px; 
+    border: 2px solid rgb(12, 12, 12);
+    Display: flex; 
+align-items: center;
+Justify-content:center;
+}
+#juegocreador1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Arial, sans-serif';
+  font-weight: 900; 
+  font-size: 24px;
+  background-image: url("../../public/images/1/rdr2.jpg");
+  background-size: cover;
+  background-position: 0px -120px;
+  background-repeat: no-repeat;
+  transition: background-size 4s ease, background-position 4s ease; }
+
+#juegocreador1:hover {
+  background-size: 100%;
+  background-position: 0px -10px; 
+}
+#juegocreador2{
+    color: rgb(0, 0, 0);
+    font-family: 'Arial, sans-serif';
+    font-weight: 900;
+  font-size: 30px;
+    background-image: url("../../public/404.jpg");
+  background-size: cover;
+  transition: background-size 4s ease, background-position 4s ease;
+  background-position: center;
+  background-position: 0px -170px;
+  background-repeat: no-repeat; 
+}
+#juegocreador2:hover{
+  background-size: 100%;
+  background-position: 0px -10px;
+}
+
+#juegocreador3{
+    color: rgb(0, 0, 0);
+    font-family: 'Arial, sans-serif';
+    font-weight: 900; 
+  font-size: 30px;
+    background-image: url("../../public/2D/hollow-knight.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: 0px -80px;
+  background-repeat: no-repeat;
+  transition: background-size 4s ease, background-position 4s ease;
+}
+#juegocreador3:hover{
+  background-size: 100%;
+  background-position: 0px -40px;
+}
+#juegocreador4{
+   
+    background-image: url("../../public/primera-persona/1/bioshock.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: 0px -90px;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  font-family: 'Arial, sans-serif';
+  font-weight: 900; 
+  transition: background-size 4s ease, background-position 4s ease;
+font-size: 30px;
+  
+}
+#juegocreador4:hover{
+  background-size: 100%;
+  background-position: 0px -10px;
+}
+#juegocreador5{
+    color: rgb(0, 0, 0);
+    font-family: 'Arial, sans-serif';
+    font-weight: 900; 
+  font-size: 30px;
+    background-image: url("../../public/primera-persona/1/subnautica.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: 0px -70px;
+  background-repeat: no-repeat;
+  transition: background-size 4s ease, background-position 4s ease;
+}
+#juegocreador5:hover{
+  background-size: 100%;
+  background-position: 0px -10px;
+}
+
+.los-mas-descargados{
+    justify-content: center;
+  align-items: center;
+    order: 3;
+    border: 10px solid rgb(182, 178, 178);
+    color: white;
+    font-family: Jost;
+    font-style: italic;
+}
+.linkjuegosinicio1 :hover{
+  color: rgb(0, 0, 0);
+  text-decoration: none !important;
+  text-shadow: 10px 10px 10px rgb(255, 255, 255);
+}
+.linkjuegosinicio1 {
+  color: rgb(255, 255, 255);
+  text-decoration: none !important;
+  text-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+#los-mas-descargados-1{
+  color: rgb(0, 0, 0);
+    font-family: 'Arial, sans-serif';
+    font-weight: 900;
+  font-size: 30px;
+    background-image: url("../../public/primera-persona/4/metro-last-night.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: 0px -90px;
+  background-repeat: no-repeat;
+  transition: background-size 4s ease, background-position 4s ease;
+}
+#los-mas-descargados-1:hover{
+  background-size: 100%;
+  background-position: 0px -50px;
+}
+  #los-mas-descargados-2{
+    color: rgb(0, 0, 0);
+      font-family: 'Arial, sans-serif';
+      font-weight: 900;
+    font-size: 30px;
+      background-image: url("../../public/images/1/cyberpunk.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 0px -65px;
+    background-repeat: no-repeat;
+    transition: background-size 4s ease, background-position 4s ease;
+  }
+  #los-mas-descargados-2:hover{
+    background-size: 100%;
+    background-position: 0px -10px;
+  }
+  #los-mas-descargados-3{
+    color: rgb(0, 0, 0);
+      font-family: 'Arial, sans-serif';
+      font-weight: 900;
+    font-size: 30px;
+      background-image: url("../../public/images/4/ghost-of-tushima.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 0px -60px;
+    background-repeat: no-repeat;
+    transition: background-size 4s ease, background-position 4s ease;
+  }
+  #los-mas-descargados-3:hover{
+    background-size: 100%;
+    background-position: 0px -10px;
+  }
+  #los-mas-descargados-4{
+    color: rgb(0, 0, 0);
+      font-family: 'Arial, sans-serif';
+      font-weight: 900;
+    font-size: 30px;
+      background-image: url("../../public/terror/1/phasmophobia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 0px -120px;
+    background-repeat: no-repeat;
+    transition: background-size 4s ease, background-position 4s ease;
+  }
+  #los-mas-descargados-4:hover{
+    background-size: 100%;
+    background-position: 0px -20px;
+  }
+  #los-mas-descargados-5{
+    color: rgb(0, 0, 0);
+      font-family: 'Arial, sans-serif';
+      font-weight: 900;
+    font-size: 30px;
+      background-image: url("../../public/images/4/god-of-war-2018.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 0px -66px;
+    background-repeat: no-repeat;
+    transition: background-size 4s ease, background-position 4s ease;
+  }
+  #los-mas-descargados-5:hover{
+    background-size: 100%;
+    background-position: 0px -5px;
+  }
+  @media (min-width: 330px) and (max-width: 530px) {
+    #juegocreador1 {
+      background-position: 0px -67px;
+    }
+    #juegocreador3{
+      background-position: 0px -30px;
+    }
+    #juegocreador4{
+      background-position: 0px -50px;
+    }
+    #juegocreador5{
+      background-position: 0px -30px;
+    }
+    #los-mas-descargados-1{
+      background-position: 0px -60px;
+    }
+    #los-mas-descargados-4{
+      background-position: 0px -67px;
+    }
+    #los-mas-descargados-5{
+      background-position: 0px -10px;
+    }
+    .bienvenida-titulo{
+      width: 90vw;
+    }
+    .recomen{
+      width: 90vw;
+    }
+    .los-mas-descargados{
+      width: 90vw;
+    }
+    .div-padre{
+    grid-template-columns: 1fr;
+    }
+}
