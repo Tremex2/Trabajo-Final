@@ -3,6 +3,11 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import imagen1 from "../../../../public/capigames.jpg"
+import imagen2 from "../../../../public/construccion.jpg"
+import imagen3 from "../../../../public/2D/1/celeste.jpg"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+
 
 export function Celeste() {
     const [contenido, setContenido] = useState(<div>
@@ -33,7 +38,9 @@ export function Celeste() {
                     <div className="juego">
                         <h1 className="letras-juegos">CodeVein</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
