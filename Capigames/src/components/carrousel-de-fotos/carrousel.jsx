@@ -1,34 +1,57 @@
 import { useState } from 'react';
-import "./carrousel.css"
+import './carrousel.css';
 
-
-const ImagenCambiable = ({ imagen1, imagen2 }) => {
-
+const ImagenCambiable = ({ imagen1, imagen2, imagen3 }) => {
     const [imagen, setImagen] = useState(imagen1);
     const [fadeOut, setFadeOut] = useState(false);
 
-    const cambiarImagen = () => {
-        setFadeOut(true)
+    const botonIzquierdo = () => {
+        setFadeOut(true);
+        setTimeout(() => {
+            if (imagen === imagen3) {
+                setImagen(imagen2);
+            } else if (imagen === imagen2) {
+                setImagen(imagen1);
+            } else {
+                setImagen(imagen3);
+            }
+            setFadeOut(false);
+        }, 500);
+    };
+    const botonDerecho = () => {
+        setFadeOut(true);
         setTimeout(() => {
             if (imagen === imagen1) {
-                setImagen(imagen2)
+                setImagen(imagen2);
+            } else if (imagen === imagen2) {
+                setImagen(imagen3);
             } else {
-                setImagen(imagen1)
+                setImagen(imagen1);
             }
-            setFadeOut(false)
-        }, 500)
-    }
-
-
+            setFadeOut(false);
+        }, 500);
+    };
     return (
         <>
-            <h1>xd</h1>
-            <div className='carrousel'>
-                <img className={`imagen ${fadeOut ? "imagenfadeOut" : ""}`} src={imagen} alt="" onClick={cambiarImagen} id='foto' />
-                <button onClick={cambiarImagen}>soplame la vela</button>
+            <div className='contenedor-carrousel'>
+                <div className='carrousel'>
+                    <button className='boton-carrousel-izquierdo' onClick={botonIzquierdo}>Izquierda</button>
+                    <div className='imagen-carrousel'>
+                        <div className='imagen'>
+                            <img
+                                className={`imagen ${fadeOut ? 'imagenfadeOut' : ''}`}
+                                src={imagen}
+                                alt="Carrousel"
+                                id='foto'
+                                onClick={botonIzquierdo}
+                            />
+                        </div>
+                    </div>
+                    <button className='boton-carrousel-derecho' onClick={botonDerecho}>Derecha</button>
+                </div>
             </div>
         </>
-    )
-}
+    );
+};
 
 export default ImagenCambiable;
