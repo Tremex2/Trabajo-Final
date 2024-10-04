@@ -24,39 +24,39 @@ export function Terror1() {
                 <div className="grid">
                     <div className="card">
                         <img src={amnesia} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/1/amnesia"}><h4>Amnesia</h4></Link>
+                        <Link className="titulo"><h4>Amnesia</h4></Link>
                     </div>
                     <div className="card">
                         <img src={layersOfFear} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/1/layers-of-fear"}><h4>Layers of fear</h4></Link>
+                        <Link className="titulo"><h4>Layers of fear</h4></Link>
                     </div>
                     <div className="card">
                         <img src={littleNightmaresII} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/1/little-nightmares-2"}><h4>Little nightmares II</h4></Link>
+                        <Link className="titulo"><h4>Little nightmares II</h4></Link>
                     </div>
                     <div className="card">
                         <img src={littleNightmares} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/1/little-nighmare"}><h4>Little nightmares</h4></Link>
+                        <Link className="titulo"><h4>Little nightmares</h4></Link>
                     </div>
                     <div className="card">
                         <img src={outlastII} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/1/outlast-2"}><h4>Outlast II</h4></Link>
+                        <Link className="titulo"><h4>Outlast II</h4></Link>
                     </div>
                     <div className="card">
                         <img src={outlast} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/1/outlast"}><h4>Outlast</h4></Link>
+                        <Link className="titulo"><h4>Outlast</h4></Link>
                     </div>
                     <div className="card">
                         <img src={phasmophobia} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/1/phasmophobia"}><h4>Phasmophobia</h4></Link>
+                        <Link className="titulo"><h4>Phasmophobia</h4></Link>
                     </div>
                     <div className="card">
                         <img src={silentHillII} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/1/silent-hill-2"}><h4>Silent Hill II</h4></Link>
+                        <Link className="titulo"><h4>Silent Hill II</h4></Link>
                     </div>
                     <div className="card">
                         <img src={soma} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/1/soma"}><h4>SOMA</h4></Link>
+                        <Link className="titulo"><h4>SOMA</h4></Link>
                     </div>
                 </div>
             </div>
