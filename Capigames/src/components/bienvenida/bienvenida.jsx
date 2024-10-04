@@ -1,7 +1,6 @@
 import { Inicio } from "../Pagina inicial/inicio";
 import { Link } from "react-router-dom";
 import capi from "../../public/capigames.jpg";
-import titulo from "../../public/capititulo.png";
 import "./bienvenida.css";
 export function Bienvenida() {
   return (

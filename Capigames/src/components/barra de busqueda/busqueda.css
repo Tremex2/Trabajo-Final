@@ -82,9 +82,6 @@ li {
     font-size: 15px;
     font-family: cormorant;
 }
-#color-de-buscador{
-    color: white !important;
-}
 @media (min-width: 1px) and (max-width: 500px){
     .no-deco{
         height: fit-content;
