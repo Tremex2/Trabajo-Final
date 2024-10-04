@@ -22,39 +22,39 @@ export function Pagina2terror() {
                 <div className="grid">
                     <div className="card">
                         <img src={guest7} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/2/7h-guest"}><h4>7h guest</h4></Link>
+                        <Link className="titulo"><h4>7h guest</h4></Link>
                     </div>
                     <div className="card">
                         <img src={ddlc} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/2/ddlc"}><h4>doki doki literature club</h4></Link>
+                        <Link className="titulo"><h4>doki doki literature club</h4></Link>
                     </div>
                     <div className="card">
                         <img src={eternalDarkness} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/2/eternal-darkness"}><h4>eternal darkness</h4></Link>
+                        <Link className="titulo"><h4>eternal darkness</h4></Link>
                     </div>
                     <div className="card">
                         <img src={fnaf1} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/2/fnaf"}><h4>five night´s at freddy´s</h4></Link>
+                        <Link className="titulo"><h4>five night´s at freddy´s</h4></Link>
                     </div>
                     <div className="card">
                         <img src={gabrielKnight} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/2/gabriel-knight"}><h4>Gabriel Knight</h4></Link>
+                        <Link className="titulo"><h4>Gabriel Knight</h4></Link>
                     </div>
                     <div className="card">
                         <img src={helloNeighbor} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/2/hello-neighbor"}><h4>Hello Neighbor</h4></Link>
+                        <Link className="titulo"><h4>Hello Neighbor</h4></Link>
                     </div>
                     <div className="card">
                         <img src={silentAlone} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/2/silent-alone"}><h4>Silent Alone</h4></Link>
+                        <Link className="titulo"><h4>Silent Alone</h4></Link>
                     </div>
                     <div className="card">
                         <img src={silentHill} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/2/silent-hill-1993"}><h4>Silent hill</h4></Link>
+                        <Link className="titulo"><h4>Silent hill</h4></Link>
                     </div>
                     <div className="card">
                         <img src={untilDawn} alt="" className="image" />
-                        <Link className="titulo" to={"/terror/2/until-dawn"}><h4>Until Dawn</h4></Link>
+                        <Link className="titulo"><h4>Until Dawn</h4></Link>
                     </div>
                 </div>
             </div>

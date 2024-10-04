@@ -3,15 +3,15 @@ import { Link } from "react-router-dom"
 import { NavLink } from "react-router-dom"
 import "../../Cards/card.css"
 import "../../boton-pagina/boton.css"
-import hike from "../../../public/corto/1/a-short-hike.png"
-import firewach from "../../../public/corto/1/firewach.jpg"
-import gris from "../../../public/corto/1/gris.webp"
-import inside from "../../../public/corto/1/INSIDE.jpg"
-import journey from "../../../public/corto/1/journey.jpg"
-import oxenfree from "../../../public/corto/1/oxenfree.jpg"
-import begginers from "../../../public/corto/1/the-begginers-guide.jpg"
-import moon from "../../../public/corto/1/to-the-moon.jpg"
-import finch from "../../../public/corto/1/what-remains-of-edith-finch.avif"
+import hike from "../../../public/corto/a-short-hike.png"
+import firewach from "../../../public/corto/firewach.jpg"
+import gris from "../../../public/corto/gris.webp"
+import inside from "../../../public/corto/INSIDE.jpg"
+import journey from "../../../public/corto/journey.jpg"
+import oxenfree from "../../../public/corto/oxenfree.jpg"
+import begginers from "../../../public/corto/the-begginers-guide.jpg"
+import moon from "../../../public/corto/to-the-moon.jpg"
+import finch from "../../../public/corto/what-remains-of-edith-finch.avif"
 
 export function Corto1() {
 
@@ -23,11 +23,11 @@ export function Corto1() {
                 <div className="grid">
                     <div className="card">
                         <img src={hike} alt="" className="image" />
-                        <Link className="titulo" to={"/corto/1/hike"}><h4>A short hike</h4></Link>
+                        <Link className="titulo"><h4>A short hike</h4></Link>
                     </div>
                     <div className="card">
                         <img src={firewach} alt="" className="image" />
-                        <Link className="titulo" to={"/corto/1/firewatch"}><h4>Firewach</h4></Link>
+                        <Link className="titulo"><h4>Firewach</h4></Link>
                     </div>
                     <div className="card">
                         <img src={gris} alt="" className="image" />
@@ -35,27 +35,27 @@ export function Corto1() {
                     </div>
                     <div className="card">
                         <img src={inside} alt="" className="image" />
-                        <Link className="titulo" to={"/corto/1/inside"}><h4>INSIDE</h4></Link>
+                        <Link className="titulo"><h4>INSIDE</h4></Link>
                     </div>
                     <div className="card">
                         <img src={journey} alt="" className="image" />
-                        <Link className="titulo" to={"/corto/1/journey"}><h4>Journey</h4></Link>
+                        <Link className="titulo"><h4>Journey</h4></Link>
                     </div>
                     <div className="card">
                         <img src={oxenfree} alt="" className="image" />
-                        <Link className="titulo" to={"/corto/1/oxenfree"}><h4>Oxenfree</h4></Link>
+                        <Link className="titulo"><h4>Oxenfree</h4></Link>
                     </div>
                     <div className="card">
                         <img src={begginers} alt="" className="image" />
-                        <Link className="titulo" to={"/corto/1/the-begginers-guide"}><h4>The begginers guide</h4></Link>
+                        <Link className="titulo"><h4>The begginers guide</h4></Link>
                     </div>
                     <div className="card">
                         <img src={moon} alt="" className="image" />
-                        <Link className="titulo" to={"/corto/1/to-the-moon"}><h4>To the moon</h4></Link>
+                        <Link className="titulo"><h4>To the moon</h4></Link>
                     </div>
                     <div className="card">
                         <img src={finch} alt="" className="image" />
-                        <Link className="titulo" to={"/corto/1/what-remains-of-edith-finch"}><h4>What remains of edith finch</h4></Link>
+                        <Link className="titulo"><h4>What remains of edith finch</h4></Link>
                     </div>
                 </div>
             </div>
