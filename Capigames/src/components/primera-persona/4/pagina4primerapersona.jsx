@@ -22,39 +22,39 @@ export function Pagina4primerapersona() {
                 <div className="grid">
                     <div className="card">
                         <img src={battlefield} alt="" className="image" />
-                        <Link className="titulo"><h4>Battlefield</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/4/battlefield"}><h4>Battlefield</h4></Link>
                     </div>
                     <div className="card">
                         <img src={wolfestein} alt="" className="image" />
-                        <Link className="titulo"><h4>Wolfestein</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/4/wolfestein"}><h4>Wolfestein</h4></Link>
                     </div>
                     <div className="card">
                         <img src={callOfDuty4} alt="" className="image" />
-                        <Link className="titulo"><h4>Call Of Duty 4</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/4/modern-warfare"}><h4>Call Of Duty 4</h4></Link>
                     </div>
                     <div className="card">
                         <img src={csgo} alt="" className="image" />
-                        <Link className="titulo"><h4>CSGO</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/4/csgo"}><h4>CSGO</h4></Link>
                     </div>
                     <div className="card">
                         <img src={doom1963} alt="" className="image" />
-                        <Link className="titulo"><h4>Doom 1963</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/4/doom-viejo"}><h4>Doom 1963</h4></Link>
                     </div>
                     <div className="card">
                         <img src={farCry3} alt="" className="image" />
-                        <Link className="titulo"><h4>Far cry 3</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/4/far-cry-3"}><h4>Far cry 3</h4></Link>
                     </div>
                     <div className="card">
                         <img src={haloCombatEnvolved} alt="" className="image" />
-                        <Link className="titulo"><h4>Halo combat envolved</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/4/halo-combat-envolved"}><h4>Halo combat envolved</h4></Link>
                     </div>
                     <div className="card">
                         <img src={metroLastNight} alt="" className="image" />
-                        <Link className="titulo"><h4>Metro last night</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/4/metro-last-night"}><h4>Metro last night</h4></Link>
                     </div>
                     <div className="card">
                         <img src={QuakePrincipal} alt="" className="image" />
-                        <Link className="titulo"><h4>Quake principal</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/4/quake"}><h4>Quake principal</h4></Link>
                     </div>
                 </div>
             </div>
