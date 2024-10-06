@@ -23,39 +23,39 @@ export function Pagina2primerapersona() {
                 <div className="grid">
                     <div className="card">
                         <img src={apex} alt="" className="image" />
-                        <Link className="titulo"><h4>Apex Legends</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/2/apex-legends"}><h4>Apex Legends</h4></Link>
                     </div>
                     <div className="card">
                         <img src={clideBarkersJericho} alt="" className="image" />
-                        <Link className="titulo"><h4>Clide Barkers Jericho</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/2/jericho"}><h4>Clide Barkers Jericho</h4></Link>
                     </div>
                     <div className="card">
                         <img src={crysis2} alt="" className="image" />
-                        <Link className="titulo"><h4>Crysis 2</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/2/crysis-2"}><h4>Crysis 2</h4></Link>
                     </div>
                     <div className="card">
                         <img src={crysis} alt="" className="image" />
-                        <Link className="titulo"><h4>Crysis</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/2/crysis"}><h4>Crysis</h4></Link>
                     </div>
                     <div className="card">
                         <img src={crysis3} alt="" className="image" />
-                        <Link className="titulo"><h4>Crysis 3</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/2/crysis-3"}><h4>Crysis 3</h4></Link>
                     </div>
                     <div className="card">
                         <img src={deusEx} alt="" className="image" />
-                        <Link className="titulo"><h4>Deus Ex</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/2/deus-ex"}><h4>Deus Ex</h4></Link>
                     </div>
                     <div className="card">
                         <img src={escapeFromTarkov} alt="" className="image" />
-                        <Link className="titulo"><h4>Escape from tarkov</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/2/escape-from-tarkov"}><h4>Escape from tarkov</h4></Link>
                     </div>
                     <div className="card">
                         <img src={fear2ProyectOrigin} alt="" className="image" />
-                        <Link className="titulo"><h4>Fear 2 proyect origin</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/2/fear-2-proyect-origin"}><h4>Fear 2 proyect origin</h4></Link>
                     </div>
                     <div className="card">
                         <img src={tf2} alt="" className="image" />
-                        <Link className="titulo"><h4>Team Fortress 2</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/2/team-fortress-2"}><h4>Team Fortress 2</h4></Link>
                     </div>
                 </div>
             </div>

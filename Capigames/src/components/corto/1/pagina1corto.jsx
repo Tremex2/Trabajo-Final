@@ -31,7 +31,7 @@ export function Corto1() {
                     </div>
                     <div className="card">
                         <img src={gris} alt="" className="image" />
-                        <Link className="titulo" to={"/corto/1/girs"}><h4>Gris</h4></Link>
+                        <Link className="titulo" to={"/corto/1/gris"}><h4>Gris</h4></Link>
                     </div>
                     <div className="card">
                         <img src={inside} alt="" className="image" />

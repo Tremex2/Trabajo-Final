@@ -22,39 +22,39 @@ export function PrimeraPersona1() {
                 <div className="grid">
                     <div className="card">
                         <img src={bioshock} alt="" className="image" />
-                        <Link className="titulo"><h4>Bioshock</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/1/bioshock"}><h4>Bioshock</h4></Link>
                     </div>
                     <div className="card">
                         <img src={dishonored} alt="" className="image" />
-                        <Link className="titulo"><h4>Dishonored</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/1/dishonored"}><h4>Dishonored</h4></Link>
                     </div>
                     <div className="card">
                         <img src={dyingLight} alt="" className="image" />
-                        <Link className="titulo"><h4>Dying Light</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/1/dying-light"}><h4>Dying Light</h4></Link>
                     </div>
                     <div className="card">
                         <img src={farCry} alt="" className="image" />
-                        <Link className="titulo"><h4>Far Cry</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/1/far-cry-5"}><h4>Far Cry</h4></Link>
                     </div>
                     <div className="card">
                         <img src={halfLife} alt="" className="image" />
-                        <Link className="titulo"><h4>Half Life 2</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/1/half-life-2"}><h4>Half Life 2</h4></Link>
                     </div>
                     <div className="card">
                         <img src={portalII} alt="" className="image" />
-                        <Link className="titulo"><h4>Portal II</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/1/portal2"}><h4>Portal II</h4></Link>
                     </div>
                     <div className="card">
                         <img src={prey} alt="" className="image" />
-                        <Link className="titulo"><h4>Prey</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/1/prey"}><h4>Prey</h4></Link>
                     </div>
                     <div className="card">
                         <img src={subnautica} alt="" className="image" />
-                        <Link className="titulo"><h4>Subnautica</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/1/subnautica"}><h4>Subnautica</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theEldersScroll} alt="" className="image" />
-                        <Link className="titulo"><h4>The elders scroll V: Skyrim</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/1/the-elders-scroll-skyrim"}><h4>The elders scroll V: Skyrim</h4></Link>
                     </div>
                 </div>
             </div>
