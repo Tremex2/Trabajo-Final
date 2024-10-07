@@ -248,7 +248,11 @@ font-size: 30px;
     background-size: 100%;
     background-position: 0px -5px;
   }
-  @media (min-width: 330px) and (max-width: 530px) {
+  @media (min-width: 1px) and (max-width: 991px) {
+    .div-father{
+      display: flex;
+      justify-content: center;
+    }
     #juegocreador1 {
       background-position: 0px -67px;
     }
