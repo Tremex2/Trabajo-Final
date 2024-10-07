@@ -431,7 +431,7 @@ function App() {
           <Route path='/2D/3/braid' element={<Braid />}></Route>
           <Route path='/2D/3/child-of-the-light' element={<ChildOfTheLight />}></Route>
           <Route path='/2D/3/guacamelee' element={<Guacamelee />}></Route>
-          <Route path='/2D/3/mark-of-the-ninja/' element={<MarkOfTheNinja />}></Route>
+          <Route path='/2D/3/mark-of-the-ninja' element={<MarkOfTheNinja />}></Route>
           <Route path='/2D/3/owlboy' element={<Owlboy />}></Route>
           <Route path='/2D/3/rogue-legacy' element={<RogueLegacy />}></Route>
           <Route path='/2D/3/salt-and-the-sectuary' element={<SaltAndTheSectuary />}></Route>
