@@ -3,6 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/images/juegos/1/the last of us 2/tlou21.jpg"
+import imagen2 from "../../../../public/images/juegos/1/the last of us 2/tlou22.jpg"
+import imagen3 from "../../../../public/images/juegos/1/the last of us 2/tlou23.jpg"
 
 export function Tlou2() {
     const [contenido, setContenido] = useState(<div>
@@ -33,11 +37,13 @@ export function Tlou2() {
                     <div className="juego">
                         <h1 className="letras-juegos">the last of us II</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            Secuela de The Last of Us, lanzada en 2020. La historia sigue a Ellie en su búsqueda de venganza, explorando temas de odio y redención. El juego es conocido por su narrativa profunda y su jugabilidad intensa
                         </h3>
                     </div>
 

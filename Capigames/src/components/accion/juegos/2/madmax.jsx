@@ -3,6 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/images/juegos/2/madmax/madmax1.jpg"
+import imagen2 from "../../../../public/images/juegos/2/madmax/madmax2.jpg"
+import imagen3 from "../../../../public/images/juegos/2/madmax/madmax3.jpg"
 
 export function Madmax() {
     const [contenido, setContenido] = useState(<div>
@@ -31,13 +35,15 @@ export function Madmax() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">CodeVein</h1>
-                        <div className="linea-recta-juegos"></div>
+                        <h1 className="letras-juegos">Mad Max</h1>
+                        <div className="linea-recta-juegos">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="espacio-sin-mas"></div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            Este juego de acción y aventura de 2015 está ambientado en un mundo post-apocalíptico. Sigues a Max Rockatansky mientras lucha por sobrevivir en un desierto lleno de bandidos y recursos escasos
                         </h3>
                     </div>
 

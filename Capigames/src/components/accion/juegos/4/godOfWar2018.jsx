@@ -3,6 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/images/juegos/4/god of war/godofwar1.jpg"
+import imagen2 from "../../../../public/images/juegos/4/god of war/godofwar2.jpg"
+import imagen3 from "../../../../public/images/juegos/4/god of war/godofwar3.jpg"
 
 export function GodOfWar2018() {
     const [contenido, setContenido] = useState(<div>
@@ -31,13 +35,16 @@ export function GodOfWar2018() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">BulletsStorm</h1>
+                        <h1 className="letras-juegos">God of war</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            Red Juego de acción y aventuras que sigue a Kratos en una mitología nórdica, con combates brutales y una profunda narrativa centrada en la relación entre padre e hijo.
+
                         </h3>
                     </div>
 

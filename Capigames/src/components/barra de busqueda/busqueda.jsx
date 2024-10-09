@@ -33,7 +33,7 @@ export function Busqueda() {
             <section className="contenedor-main">
                 <div className="input-container">
                     <div className="inline-buscador">
-                        <ion-icon name="search-circle-outline"></ion-icon>
+                        <ion-icon name="search-circle-outline" id="icono-buscador"></ion-icon>
                         <input type="text" name="buscador" id="buscador" placeholder="buscar juego" />
                     </div>
                     <ul id="listaArticulos">

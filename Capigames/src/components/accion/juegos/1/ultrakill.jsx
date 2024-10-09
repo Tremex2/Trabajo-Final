@@ -3,6 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/images/juegos/1/ultrakill/ultrakill1.jpg"
+import imagen2 from "../../../../public/images/juegos/1/ultrakill/ultrakill2.jpg"
+import imagen3 from "../../../../public/images/juegos/1/ultrakill/ultrakill3.jpg"
 
 export function Ultrakill() {
     const [contenido, setContenido] = useState(<div>
@@ -33,11 +37,13 @@ export function Ultrakill() {
                     <div className="juego">
                         <h1 className="letras-juegos">ultrakill</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            Es un juego de disparos en primera persona de ritmo rápido, lanzado en acceso anticipado en 2020. Combina elementos de shooters clásicos y modernos, y se centra en el combate estilizado y agresivo. Juegas como una máquina de combate que se adentra en el Infierno para sobrevivir
                         </h3>
                     </div>
 

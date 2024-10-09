@@ -48,6 +48,9 @@
     background-color: rgb(255, 255, 78);
     margin: 2px;
 }
+#menu{
+    z-index: 3;
+}
 .izquierda{
     border-radius: 2px;
     height: 100vh;
@@ -67,6 +70,7 @@
     text-decoration: none;
     color: white;
     font-family: Jost-italic;
+    
 }
 .opcion{
     height: 45px;
@@ -115,7 +119,7 @@ ion-icon {
     margin-right: 5px;
     color: rgb(79, 178, 224) !important;
  }
- @media (min-width: 330px) and (max-width: 530px) {
+ @media (min-width: 1px) and (max-width: 530px) {
     .izquierda{
         width: 60vw;
         margin-left: -60%;

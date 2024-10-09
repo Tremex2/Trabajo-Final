@@ -3,6 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/images/juegos/2/just cause 4/justcause41.jpg"
+import imagen2 from "../../../../public/images/juegos/2/just cause 4/justcause42.jpg"
+import imagen3 from "../../../../public/images/juegos/2/just cause 4/justcause43.jpg"
 
 export function JustCause4() {
     const [contenido, setContenido] = useState(<div>
@@ -31,13 +35,15 @@ export function JustCause4() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">CodeVein</h1>
+                        <h1 className="letras-juegos">Just Cause 4</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            Lanzado en 2018, es un juego de acción y aventura en un mundo abierto. Sigues a Rico Rodríguez en el país ficticio de Solís, enfrentándote a la organización paramilitar Black Hand y desatando el caos con diversas herramientas y vehículos
                         </h3>
                     </div>
 
