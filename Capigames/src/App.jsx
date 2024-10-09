@@ -2,6 +2,7 @@ import { Error } from './components/404/404'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Menu } from './components/Menu/menu'
 import { Busqueda } from './components/barra de busqueda/busqueda'
+import { Footer } from './components/footer/footer'
 
 import { Pagina1Accion } from './components/accion/1/pagina1accion'
 
@@ -492,8 +493,8 @@ function App() {
           <Route path='/primera-persona/4/modern-warfare' element={<CallOfDutyMordernWarfare />}></Route>
           <Route path='/primera-persona/4/wolfestein' element={<WolfesteinNewOrder />}></Route>
           <Route path='/primera-persona/4/battlefield' element={<BattleField />}></Route>
-
         </Routes >
+        <Footer></Footer>
       </BrowserRouter >
     </>
   )
