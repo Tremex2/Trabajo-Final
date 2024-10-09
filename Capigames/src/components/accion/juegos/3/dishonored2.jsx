@@ -3,6 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/images/juegos/3/dishonored 2/dishonored21.jpg"
+import imagen2 from "../../../../public/images/juegos/3/dishonored 2/dishonored22.jpg"
+import imagen3 from "../../../../public/images/juegos/3/dishonored 2/dishonored23.jpg"
 
 export function Dishonored2() {
     const [contenido, setContenido] = useState(<div>
@@ -31,13 +35,15 @@ export function Dishonored2() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">BulletsStorm</h1>
+                        <h1 className="letras-juegos">Dishonored 2</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            Juego de sigilo en primera persona donde los jugadores usan habilidades sobrenaturales para completar misiones, con opciones de violencia o no letal.
                         </h3>
                     </div>
 

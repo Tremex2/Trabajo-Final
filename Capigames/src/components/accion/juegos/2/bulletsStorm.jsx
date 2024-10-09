@@ -3,6 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/images/juegos/2/bulletsstorm/bulletsstorm1.jpg"
+import imagen2 from "../../../../public/images/juegos/2/bulletsstorm/bulletsstorm2.jpg"
+import imagen3 from "../../../../public/images/juegos/2/bulletsstorm/bulletsstorm3.jpg"
 
 export function BulletsStorm() {
     const [contenido, setContenido] = useState(<div>
@@ -33,11 +37,13 @@ export function BulletsStorm() {
                     <div className="juego">
                         <h1 className="letras-juegos">BulletsStorm</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            Es un juego de disparos en primera persona lanzado en 2011. Desarrollado por People Can Fly y Epic Games, se destaca por su sistema de “Skillshots” que recompensa a los jugadores por realizar eliminaciones creativas
                         </h3>
                     </div>
 
