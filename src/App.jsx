@@ -201,9 +201,56 @@ import { GoneHome } from './components/terror/juegos/4/goneHome'
 import { ClockTower } from './components/terror/juegos/4/clockTower'
 
 import { PrimeraPersona1 } from './components/primera-persona/1/pagina1primerapersona'
+
+import { Bioshock } from './components/primera-persona/juegos/1/bioshock'
+import { Dishonored } from './components/primera-persona/juegos/1/dishonored'
+import { DyingLight } from './components/primera-persona/juegos/1/dyingLight'
+import { FarCry5 } from './components/primera-persona/juegos/1/farCry'
+import { HalfLife2 } from './components/primera-persona/juegos/1/halfLife'
+import { Portal2 } from './components/primera-persona/juegos/1/portal2'
+import { Prey } from './components/primera-persona/juegos/1/prey'
+import { Subnautica } from './components/primera-persona/juegos/1/subnautica'
+import { TheEldersScrollSkyrim } from './components/primera-persona/juegos/1/theEldersScrollSkyrim'
+
+
 import { Pagina2primerapersona } from './components/primera-persona/2/pagina2primerapersona'
+
+import { ApexLegends } from './components/primera-persona/juegos/2/apexLegends'
+import { ClideBarkersJericho } from './components/primera-persona/juegos/2/clideBarkersJericho'
+import { Crysis2 } from './components/primera-persona/juegos/2/crysis2'
+import { Crysis } from './components/primera-persona/juegos/2/crysis'
+import { Crysis3 } from './components/primera-persona/juegos/2/crysis3'
+import { DeusEx } from './components/primera-persona/juegos/2/deusEx'
+import { EscapeFromTarkov } from './components/primera-persona/juegos/2/escapeFromTarkov'
+import { Fear2ProyectOrigin } from './components/primera-persona/juegos/2/fear2ProyectOrigin'
+import { TeamFortress2 } from './components/primera-persona/juegos/2/teamFortress2'
+
+
 import { Pagina3primerapersona } from './components/primera-persona/3/pagina3primerapersona'
+
+import { TheOuterWilds } from './components/primera-persona/juegos/3/theOuterWilds'
+import { SystemShock } from './components/primera-persona/juegos/3/systemShock'
+import { StalkerShadowChernobyl } from './components/primera-persona/juegos/3/stalkerShadowChernobyl'
+import { SeriousSam } from './components/primera-persona/juegos/3/seriousSam'
+import { RainbowSixSiege } from './components/primera-persona/juegos/3/rainbowSixSiege'
+import { Rage2 } from './components/primera-persona/juegos/3/rage2'
+import { Portal } from './components/primera-persona/juegos/3/portal'
+import { MirrorsEdge } from './components/primera-persona/juegos/3/mirrorsEdge'
+import { CallOfJuarezGunslinguer } from './components/primera-persona/juegos/3/callOfJuarezGunslinguer'
+
+
 import { Pagina4primerapersona } from './components/primera-persona/4/pagina4primerapersona'
+
+import { Quake } from './components/primera-persona/juegos/4/quakePrincipal'
+import { MetroLastNight } from './components/primera-persona/juegos/4/metroLastNight'
+import { HaloCombatEnvolved } from './components/primera-persona/juegos/4/haloCombatEnvolved'
+import { FarCry3 } from './components/primera-persona/juegos/4/farCry3'
+import { DOOM1963 } from './components/primera-persona/juegos/4/doom'
+import { CSGO } from './components/primera-persona/juegos/4/counterStrike'
+import { CallOfDutyMordernWarfare } from './components/primera-persona/juegos/4/callOfDutyModernWarfare'
+import { WolfesteinNewOrder } from './components/primera-persona/juegos/4/wolfesteinNewOrder'
+import { BattleField } from './components/primera-persona/juegos/4/battlefield'
+
 import { Bienvenida } from './components/bienvenida/bienvenida'
 function App() {
 
@@ -384,7 +431,7 @@ function App() {
           <Route path='/2D/3/braid' element={<Braid />}></Route>
           <Route path='/2D/3/child-of-the-light' element={<ChildOfTheLight />}></Route>
           <Route path='/2D/3/guacamelee' element={<Guacamelee />}></Route>
-          <Route path='/2D/3/mark-of-the-ninja/' element={<MarkOfTheNinja />}></Route>
+          <Route path='/2D/3/mark-of-the-ninja' element={<MarkOfTheNinja />}></Route>
           <Route path='/2D/3/owlboy' element={<Owlboy />}></Route>
           <Route path='/2D/3/rogue-legacy' element={<RogueLegacy />}></Route>
           <Route path='/2D/3/salt-and-the-sectuary' element={<SaltAndTheSectuary />}></Route>
@@ -407,6 +454,47 @@ function App() {
           <Route path='/primera-persona/3' element={<Pagina3primerapersona />}></Route>
           <Route path='/primera-persona/4' element={<Pagina4primerapersona />}></Route>
           {/* rutas de juegos de primera persona */}
+
+          <Route path='/primera-persona/1/bioshock' element={<Bioshock />}></Route>
+          <Route path='/primera-persona/1/dishonored' element={<Dishonored />}></Route>
+          <Route path='/primera-persona/1/dying-light' element={<DyingLight />}></Route>
+          <Route path='/primera-persona/1/far-cry-5' element={<FarCry5 />}></Route>
+          <Route path='/primera-persona/1/half-life-2' element={<HalfLife2 />}></Route>
+          <Route path='/primera-persona/1/prey' element={<Prey />}></Route>
+          <Route path='/primera-persona/1/subnautica' element={<Subnautica />}></Route>
+          <Route path='/primera-persona/1/the-elders-scroll-skyrim' element={<TheEldersScrollSkyrim />}></Route>
+          <Route path='/primera-persona/1/portal-2' element={<Portal2 />}></Route>
+
+          <Route path='/primera-persona/2/team-fortress-2' element={<TeamFortress2 />}></Route>
+          <Route path='/primera-persona/2/fear-2-proyect-origin' element={<Fear2ProyectOrigin />}></Route>
+          <Route path='/primera-persona/2/escape-from-tarkov' element={<EscapeFromTarkov />}></Route>
+          <Route path='/primera-persona/2/deus-ex' element={<DeusEx />}></Route>
+          <Route path='/primera-persona/2/crysis-3' element={<Crysis3 />}></Route>
+          <Route path='/primera-persona/2/crysis-2' element={<Crysis2 />}></Route>
+          <Route path='/primera-persona/2/crysis' element={<Crysis />}></Route>
+          <Route path='/primera-persona/2/clide-barkers-jericho' element={<ClideBarkersJericho />}></Route>
+          <Route path='/primera-persona/2/apex-legends' element={<ApexLegends />}></Route>
+
+          <Route path='/primera-persona/3/the-outer-wilds' element={<TheOuterWilds />}></Route>
+          <Route path='/primera-persona/3/system-shock-2' element={<SystemShock />}></Route>
+          <Route path='/primera-persona/3/stalker-shadow-from-chernobyl' element={<StalkerShadowChernobyl />}></Route>
+          <Route path='/primera-persona/3/serious-sam' element={<SeriousSam />}></Route>
+          <Route path='/primera-persona/3/rainbow-six-siege' element={<RainbowSixSiege />}></Route>
+          <Route path='/primera-persona/3/rage-2' element={<Rage2 />}></Route>
+          <Route path='/primera-persona/3/portal' element={<Portal />}></Route>
+          <Route path='/primera-persona/3/mirrors-edge' element={<MirrorsEdge />}></Route>
+          <Route path='/primera-persona/3/call-of-juarez-gunslinguer' element={<CallOfJuarezGunslinguer />}></Route>
+
+          <Route path='/primera-persona/4/quake' element={<Quake />}></Route>
+          <Route path='/primera-persona/4/metro-last-night' element={<MetroLastNight />}></Route>
+          <Route path='/primera-persona/4/halo-combat-envolved' element={<HaloCombatEnvolved />}></Route>
+          <Route path='/primera-persona/4/far-cry-3' element={<FarCry3 />}></Route>
+          <Route path='/primera-persona/4/doom-viejo' element={<DOOM1963 />}></Route>
+          <Route path='/primera-persona/4/csgo' element={<CSGO />}></Route>
+          <Route path='/primera-persona/4/modern-warfare' element={<CallOfDutyMordernWarfare />}></Route>
+          <Route path='/primera-persona/4/wolfestein' element={<WolfesteinNewOrder />}></Route>
+          <Route path='/primera-persona/4/battlefield' element={<BattleField />}></Route>
+
         </Routes >
       </BrowserRouter >
     </>

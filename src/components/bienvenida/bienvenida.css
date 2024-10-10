@@ -90,12 +90,12 @@ Justify-content:center;
   background-size: cover;
   transition: background-size 4s ease, background-position 4s ease;
   background-position: center;
-  background-position: 0px -20px;
+  background-position: 0px -100px;
   background-repeat: no-repeat; 
 }
 #juegocreador2:hover{
   background-size: 100%;
-  background-position: 0px -80px;
+  background-position: 0px -10px;
 }
 
 #juegocreador3{
@@ -248,7 +248,11 @@ font-size: 30px;
     background-size: 100%;
     background-position: 0px -5px;
   }
-  @media (min-width: 330px) and (max-width: 530px) {
+  @media (min-width: 1px) and (max-width: 991px) {
+    .div-father{
+      display: flex;
+      justify-content: center;
+    }
     #juegocreador1 {
       background-position: 0px -67px;
     }

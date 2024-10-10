@@ -22,39 +22,39 @@ export function Pagina3primerapersona() {
                 <div className="grid">
                     <div className="card">
                         <img src={callOfJuarezGunslinger} alt="" className="image" />
-                        <Link className="titulo"><h4>Call of Juarez gunslinger</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/3/call-of-juarez-gunslinguer"}><h4>Call of Juarez gunslinger</h4></Link>
                     </div>
                     <div className="card">
                         <img src={mirrorsEdge} alt="" className="image" />
-                        <Link className="titulo"><h4>Mirrors edge</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/3/mirrors-edge"}><h4>Mirrors edge</h4></Link>
                     </div>
                     <div className="card">
                         <img src={portal1Featured} alt="" className="image" />
-                        <Link className="titulo"><h4>Portal 1</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/3/portal"}><h4>Portal 1</h4></Link>
                     </div>
                     <div className="card">
                         <img src={rage2} alt="" className="image" />
-                        <Link className="titulo"><h4>Rage 2</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/3/rage-2"}><h4>Rage 2</h4></Link>
                     </div>
                     <div className="card">
                         <img src={rainbowSixSiege} alt="" className="image" />
-                        <Link className="titulo"><h4>Rainbox Six Siege</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/3/rainbow-six-siege"}><h4>Rainbox Six Siege</h4></Link>
                     </div>
                     <div className="card">
                         <img src={seriousSam} alt="" className="image" />
-                        <Link className="titulo"><h4>Serious Sam</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/3/serious-sam"}><h4>Serious Sam</h4></Link>
                     </div>
                     <div className="card">
                         <img src={stalkerShadowChernobyl} alt="" className="image" />
-                        <Link className="titulo"><h4>Stalker shadow chernobyl</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/3/stalker-shadow-from-chernobyl"}><h4>Stalker shadow chernobyl</h4></Link>
                     </div>
                     <div className="card">
                         <img src={systemSchock2} alt="" className="image" />
-                        <Link className="titulo"><h4>System shock 2</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/3/system-shock-2"}><h4>System shock 2</h4></Link>
                     </div>
                     <div className="card">
                         <img src={theOuterWordls} alt="" className="image" />
-                        <Link className="titulo"><h4>The outer wordls</h4></Link>
+                        <Link className="titulo" to={"/primera-persona/3/the-outer-wilds"}><h4>The outer wordls</h4></Link>
                     </div>
                 </div>
             </div>
