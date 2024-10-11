@@ -3,6 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/corto/juegos/3/every body is gone/gone1.jpg"
+import imagen2 from "../../../../public/corto/juegos/3/every body is gone/gone2.jpg"
+import imagen3 from "../../../../public/corto/juegos/3/every body is gone/gone3.jpg"
 
 export function EveryBodyIsGone() {
     const [contenido, setContenido] = useState(<div>
@@ -31,13 +35,15 @@ export function EveryBodyIsGone() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">CodeVein</h1>
+                        <h1 className="letras-juegos">Every Body Is Gone</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            Una aventura narrativa en un pueblo inglés vacío, donde exploras lo que quedó atrás después de que todos sus habitantes desaparecieron misteriosamente.
                         </h3>
                     </div>
 

@@ -3,6 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/corto/juegos/1/oxenfree/oxenfree1.jpg"
+import imagen2 from "../../../../public/corto/juegos/1/oxenfree/oxenfree2.jpg"
+import imagen3 from "../../../../public/corto/juegos/1/oxenfree/oxenfree3.jpg"
 
 export function OxenFree() {
     const [contenido, setContenido] = useState(<div>
@@ -31,13 +35,15 @@ export function OxenFree() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">CodeVein</h1>
+                        <h1 className="letras-juegos">Oxenfree</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                            <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            Un thriller sobrenatural de aventura gráfica, donde un grupo de amigos abre accidentalmente una grieta en el tiempo durante una escapada a una isla.
                         </h3>
                     </div>
 
