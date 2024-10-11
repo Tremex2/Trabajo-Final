@@ -36,10 +36,10 @@ export function Madmax() {
                 <div className="contenedor-juegos">
                     <div className="juego">
                         <h1 className="letras-juegos">Mad Max</h1>
-                        <div className="linea-recta-juegos">
+                        <div className="linea-recta-juegos"></div>
+                        <div className="espacio-sin-mas">
                             <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
                         </div>
-                        <div className="espacio-sin-mas"></div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">

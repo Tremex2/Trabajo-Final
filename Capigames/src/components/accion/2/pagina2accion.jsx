@@ -46,7 +46,7 @@ export function Pagina2Accion() {
                     </div>
                     <div className="card">
                         <img src={mortalshell} alt="" className="image" />
-                        <Link className="titulo" to={"/accion/2/moryal-shell"}><h4>mortal shell</h4></Link>
+                        <Link className="titulo" to={"/accion/2/mortal-shell"}><h4>mortal shell</h4></Link>
                     </div>
                     <div className="card">
                         <img src={remnant} alt="" className="image" />

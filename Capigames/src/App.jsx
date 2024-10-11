@@ -318,7 +318,7 @@ function App() {
           <Route path='/accion/1/ultrakill' element={<Ultrakill />}></Route>
           <Route path='/accion/1/doom-eternal' element={<DoomEternal />}></Route>
           <Route path='/accion/1/tlou' element={<Tlou />}></Route>
-          <Route path='/accion/1/tlou-2' element={<Tlou2 />}></Route>
+          <Route path='/accion/1/tlou2' element={<Tlou2 />}></Route>
           <Route path='/accion/1/gta-5' element={<GTA5 />}></Route>
           <Route path='/accion/1/codevein' element={<CodeVein />}></Route>
           <Route path='/accion/1/dark-souls' element={<DarkSouls />}></Route>
@@ -348,7 +348,7 @@ function App() {
           <Route path='/accion/4/bloodborne' element={<Bloodborne />}></Route>
           <Route path='/accion/4/control' element={<Control />}></Route>
           <Route path='/accion/4/devil-may-cry-5' element={<DevilMayCry5 />}></Route>
-          <Route path='/accion/4/god-of-war-5' element={<GodOfWar2018 />}></Route>
+          <Route path='/accion/4/god-of-war-2018' element={<GodOfWar2018 />}></Route>
           <Route path='/accion/4/horizon-zero-dawn' element={<HorizonZeroDawn />}></Route>
           <Route path='/accion/4/nioh-2' element={<Nioh2 />}></Route>
           <Route path='/accion/4/sekiro-shadows-die-twice' element={<SekiroShadowsDieTwice />}></Route>
