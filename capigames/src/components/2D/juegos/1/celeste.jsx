@@ -32,7 +32,7 @@ export function Celeste() {
         <li className="lista-general">Memoria: 8 GB RAM</li>
         <li className="lista-general">
           Tarjeta de vídeo: NVIDIA GeForce GTX 770 con 2 GB / AMD Radeon R9 280
-          con
+          con 3GB
         </li>
       </ul>
     </div>,
