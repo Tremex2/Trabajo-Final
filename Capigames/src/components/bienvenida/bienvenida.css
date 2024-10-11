@@ -86,11 +86,11 @@ Justify-content:center;
     font-family: 'Arial, sans-serif';
     font-weight: 900;
   font-size: 30px;
-    background-image: url("../../public/404.jpg");
+    background-image: url("../../public/corto/4/oneshot.png");
   background-size: cover;
   transition: background-size 4s ease, background-position 4s ease;
   background-position: center;
-  background-position: 0px -170px;
+  background-position: 0px -100px;
   background-repeat: no-repeat; 
 }
 #juegocreador2:hover{
@@ -103,7 +103,7 @@ Justify-content:center;
     font-family: 'Arial, sans-serif';
     font-weight: 900; 
   font-size: 30px;
-    background-image: url("../../public/2D/hollow-knight.jpg");
+    background-image: url("../../public/2D/1/hollow-knight.jpg");
   background-size: cover;
   background-position: center;
   background-position: 0px -80px;
