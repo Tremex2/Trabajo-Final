@@ -3,13 +3,17 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import imagen1 from "../../../../public/2D/juegos/3/Mark of the ninja/ma1.jpg"
+import imagen2 from "../../../../public/2D/juegos/3/Mark of the ninja/ma2.jpg"
+import imagen3 from "../../../../public/2D/juegos/3/Mark of the ninja/ma3.jpg"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
 
 export function MarkOfTheNinja() {
     const [contenido, setContenido] = useState(<div>
         <ul className="">
             <li className="lista-general">Version: 1.31</li>
             <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-            <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+            <li className="lista-general">Fecha de salida: 7/sep./2012</li>
         </ul>
         <ul>
             <li className="lista-general">Requisitos</li>
@@ -33,11 +37,13 @@ export function MarkOfTheNinja() {
                     <div className="juego">
                         <h1 className="letras-juegos">CodeVein</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                        <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                        Mark of the Ninja es un juego de sigilo en 2D donde controlas a un ninja que debe utilizar habilidades de sigilo y precisión para superar enemigos y completar misiones. Con un enfoque en la estrategia y un estilo visual detallado, el juego permite abordar los niveles de múltiples maneras, enfatizando la paciencia y la planificación en un mundo oscuro y atmosférico.
                         </h3>
                     </div>
 
@@ -47,7 +53,7 @@ export function MarkOfTheNinja() {
                                 <ul className="">
                                     <li className="lista-general">Version: 1.31</li>
                                     <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-                                    <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+                                    <li className="lista-general">Fecha de salida: 7/sep./2012</li>
                                 </ul>
                                 <ul>
                                     <li className="lista-general">Requisitos</li>

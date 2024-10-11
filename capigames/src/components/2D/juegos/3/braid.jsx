@@ -3,13 +3,17 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import imagen1 from "../../../../public/2D/juegos/3/Braid/bra1.jpg"
+import imagen2 from "../../../../public/2D/juegos/3/Braid/bra2.jpg"
+import imagen3 from "../../../../public/2D/juegos/3/Braid/bra3.jpg"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
 
 export function Braid() {
     const [contenido, setContenido] = useState(<div>
         <ul className="">
             <li className="lista-general">Version: 1.31</li>
             <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-            <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+            <li className="lista-general">Fecha de salida: 14/may./2024</li>
         </ul>
         <ul>
             <li className="lista-general">Requisitos</li>
@@ -31,13 +35,15 @@ export function Braid() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">CodeVein</h1>
+                        <h1 className="letras-juegos">Braid</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                        <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                        Braid es un juego de plataformas y acertijos donde controlas a Tim, un personaje que manipula el tiempo para resolver desafíos y recuperar piezas de rompecabezas. Con una narrativa que explora temas de amor y arrepentimiento, y un estilo artístico pintado a mano, el juego ofrece una experiencia introspectiva y única.
                         </h3>
                     </div>
 
@@ -47,7 +53,7 @@ export function Braid() {
                                 <ul className="">
                                     <li className="lista-general">Version: 1.31</li>
                                     <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-                                    <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+                                    <li className="lista-general">Fecha de salida: 14/may./2024</li>
                                 </ul>
                                 <ul>
                                     <li className="lista-general">Requisitos</li>

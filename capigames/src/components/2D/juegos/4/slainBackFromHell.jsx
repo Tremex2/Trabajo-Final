@@ -3,13 +3,17 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import imagen1 from "../../../../public/2D/juegos/4/Slain back from hell/sl1.jpg"
+import imagen2 from "../../../../public/2D/juegos/4/Slain back from hell/sl2.jpg"
+import imagen3 from "../../../../public/2D/juegos/4/Slain back from hell/sl3.jpg"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
 
 export function SlainBackFromHell() {
     const [contenido, setContenido] = useState(<div>
         <ul className="">
             <li className="lista-general">Version: 1.31</li>
             <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-            <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+            <li className="lista-general">Fecha de salida: 24/mar./2016</li>
         </ul>
         <ul>
             <li className="lista-general">Requisitos</li>
@@ -31,13 +35,15 @@ export function SlainBackFromHell() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">CodeVein</h1>
+                        <h1 className="letras-juegos">Slain back from hell</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                        <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                        Slain: Back from Hell es un juego de acción y plataformas en 2D que combina elementos de metal gótico y fantasía oscura. Juegas como Bathoryn, un héroe que regresa de la muerte para luchar contra demonios y monstruos en un mundo lleno de criaturas espantosas. Con combates desafiantes, un estilo artístico pixelado y una banda sonora heavy metal, el juego ofrece una experiencia intensa, centrada en la habilidad y la estrategia en un entorno sombrío y atmosférico.
                         </h3>
                     </div>
 
@@ -47,7 +53,7 @@ export function SlainBackFromHell() {
                                 <ul className="">
                                     <li className="lista-general">Version: 1.31</li>
                                     <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-                                    <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+                                    <li className="lista-general">Fecha de salida: 24/mar./2016</li>
                                 </ul>
                                 <ul>
                                     <li className="lista-general">Requisitos</li>

@@ -3,13 +3,17 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import imagen1 from "../../../../public/2D/juegos/4/Iconoclasts/ic1.jpg"
+import imagen2 from "../../../../public/2D/juegos/4/Iconoclasts/ic2.jpg"
+import imagen3 from "../../../../public/2D/juegos/4/Iconoclasts/ic3.jpg"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
 
 export function IconoClasts() {
     const [contenido, setContenido] = useState(<div>
         <ul className="">
             <li className="lista-general">Version: 1.31</li>
             <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-            <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+            <li className="lista-general">Fecha de salida: 23/jan./2018</li>
         </ul>
         <ul>
             <li className="lista-general">Requisitos</li>
@@ -31,13 +35,15 @@ export function IconoClasts() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">CodeVein</h1>
+                        <h1 className="letras-juegos">Iconoclasts</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                        <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
-                        <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                        <h3 className="letras-juegos">                           
+Iconoclasts es un juego de plataformas y aventuras en 2D donde sigues a Robin, una mecánica que navega en un mundo donde la tecnología está restringida por una religión opresiva. Con una mezcla de acción, resolución de acertijos y exploración, el juego presenta un estilo artístico vibrante y una narrativa profunda que aborda temas como la libertad y la identidad. A medida que Robin se enfrenta a enemigos y desentraña secretos, el juego ofrece una experiencia emotiva y desafiante.
                         </h3>
                     </div>
 
@@ -47,7 +53,7 @@ export function IconoClasts() {
                                 <ul className="">
                                     <li className="lista-general">Version: 1.31</li>
                                     <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-                                    <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+                                    <li className="lista-general">Fecha de salida: 23/jan./2018</li>
                                 </ul>
                                 <ul>
                                     <li className="lista-general">Requisitos</li>

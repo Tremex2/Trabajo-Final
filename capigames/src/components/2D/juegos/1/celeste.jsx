@@ -3,10 +3,10 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp";
 import mega from "../../../../public/links de descarga/mega.png";
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png";
-import imagen1 from "../../../../public/capigames.jpg";
-import imagen2 from "../../../../public/construccion.jpg";
-import imagen3 from "../../../../public/2D/1/celeste.jpg";
 import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
+import imagen1 from "../../../../public/2D/juegos/1/celeste/jceleste-1.jpg";
+import imagen2 from "../../../../public/2D/juegos/1/celeste/jceleste-2.jpg";
+import imagen3 from "../../../../public/2D/juegos/1/celeste/jceleste-3.jpg";
 
 export function Celeste() {
   const [contenido, setContenido] = useState(
@@ -17,9 +17,7 @@ export function Celeste() {
           Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán,
           Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés
         </li>
-        <li className="lista-general">
-          Fecha de salida: 26 de octubre de 2018
-        </li>
+        <li className="lista-general">Fecha de salida: 25 ENE 2018</li>
       </ul>
       <ul>
         <li className="lista-general">Requisitos</li>
@@ -50,7 +48,7 @@ export function Celeste() {
       <div className="contenedor-del-contenedor-juegos">
         <div className="contenedor-juegos">
           <div className="juego">
-            <h1 className="letras-juegos">CodeVein</h1>
+            <h1 className="letras-juegos">Celeste</h1>
             <div className="linea-recta-juegos"></div>
             <div className="espacio-sin-mas">
               <ImagenCambiable
@@ -64,8 +62,11 @@ export function Celeste() {
               Descripcion
             </h2>
             <h3 className="letras-juegos">
-              Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en
-              mundo abierto ambientado en el ocaso del Viejo Oeste.
+              Ayuda a Madeline a sobrevivir a los demonios de su interior en su
+              viaje hasta la cima de la montaña Celeste, en este ajustadísimo
+              plataforma, obra de los creadores de TowerFall. Enfréntate a
+              cientos de desafíos diseñados a mano, devela retorcidos secretos
+              y, y reconstruye el misterio de la montaña.
             </h3>
           </div>
 
@@ -84,7 +85,7 @@ export function Celeste() {
                           Chino simplificado y Japonés
                         </li>
                         <li className="lista-general">
-                          Fecha de salida: 26 de octubre de 2018
+                          Fecha de salida: 25 ENE 2018
                         </li>
                       </ul>
                       <ul>
