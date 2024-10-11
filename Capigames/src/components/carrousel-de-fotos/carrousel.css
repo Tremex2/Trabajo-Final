@@ -30,8 +30,13 @@
     background-color: rgba(0, 0, 0, 0.5); 
     border: none;
     cursor: pointer;
-    padding: 10px;
-
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.boton-carrousel-izquierdo p{
+    font-size: 1rem;
+    font-weight: 1000;
 }
 .boton-carrousel-derecho {
     position: absolute;
@@ -43,5 +48,11 @@
     background-color: rgba(0, 0, 0, 0.5); 
     border: none;
     cursor: pointer;
-    padding: 10px;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.boton-carrousel-derecho p{
+    font-size: 1rem;
+    font-weight: 1000;
 }
