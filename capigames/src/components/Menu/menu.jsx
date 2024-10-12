@@ -57,28 +57,46 @@ export function Menu() {
         </Link>
         <div className="opcion">
           <h4 className="nombres-de-creadores">TIZIANO:</h4>
-          <a className="redes-sociales-de-los-creadores" href="">
+          <a
+            className="redes-sociales-de-los-creadores"
+            href="https://www.instagram.com/tremex08/"
+          >
             <ion-icon name="logo-instagram"></ion-icon>
           </a>
-          <a className="redes-sociales-de-los-creadores" href="">
+          <a
+            className="redes-sociales-de-los-creadores"
+            href="https://github.com/Tremex2"
+          >
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </div>
         <div className="opcion">
           <h4 className="nombres-de-creadores">DAVID:</h4>
-          <a className="redes-sociales-de-los-creadores" href="">
+          <a
+            className="redes-sociales-de-los-creadores"
+            href="https://www.instagram.com/david.burzomato/"
+          >
             <ion-icon name="logo-instagram"></ion-icon>
           </a>
-          <a className="redes-sociales-de-los-creadores" href="">
+          <a
+            className="redes-sociales-de-los-creadores"
+            href="https://github.com/davidburzo"
+          >
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </div>
         <div className="opcion">
           <h4 className="nombres-de-creadores">HEITOR:</h4>
-          <a className="redes-sociales-de-los-creadores" href="">
+          <a
+            className="redes-sociales-de-los-creadores"
+            href="https://www.instagram.com/hec_022_/"
+          >
             <ion-icon name="logo-instagram"></ion-icon>
           </a>
-          <a className="redes-sociales-de-los-creadores" href="">
+          <a
+            className="redes-sociales-de-los-creadores"
+            href="https://github.com/hec123456"
+          >
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </div>
