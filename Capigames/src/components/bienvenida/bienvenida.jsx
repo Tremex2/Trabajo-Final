@@ -89,7 +89,7 @@ export function Bienvenida() {
                 </Link>
               </div>
               <div className="juegocreador" id="los-mas-descargados-5">
-                <Link className="linkjuegosinicio1" to={"/accion/4/god-of-war-5"}>
+                <Link className="linkjuegosinicio1" to={"/accion/4/god-of-war-2018"}>
                   <h2>god of war</h2>
                 </Link>
               </div>
