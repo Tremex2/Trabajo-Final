@@ -3,13 +3,17 @@ import { useState } from "react";
 import mediafire from "../../../../public/links de descarga/mediafire.webp"
 import mega from "../../../../public/links de descarga/mega.png"
 import pixelDrain from "../../../../public/links de descarga/pixeldrain.png"
+import imagen1 from "../../../../public/2D/juegos/4/Stream Wordl Dig 2/st1.jpg"
+import imagen2 from "../../../../public/2D/juegos/4/Stream Wordl Dig 2/st2.jpg"
+import imagen3 from "../../../../public/2D/juegos/4/Stream Wordl Dig 2/st3.jpg"
+import ImagenCambiable from "../../../carrousel-de-fotos/carrousel";
 
 export function StreamWordlDig2() {
     const [contenido, setContenido] = useState(<div>
         <ul className="">
             <li className="lista-general">Version: 1.31</li>
             <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-            <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+            <li className="lista-general">Fecha de salida: 22/set./2017</li>
         </ul>
         <ul>
             <li className="lista-general">Requisitos</li>
@@ -31,13 +35,15 @@ export function StreamWordlDig2() {
             <div className="contenedor-del-contenedor-juegos">
                 <div className="contenedor-juegos">
                     <div className="juego">
-                        <h1 className="letras-juegos">CodeVein</h1>
+                        <h1 className="letras-juegos">Stream Wordl Dig 2</h1>
                         <div className="linea-recta-juegos"></div>
-                        <div className="espacio-sin-mas"></div>
+                        <div className="espacio-sin-mas">
+                        <ImagenCambiable imagen1={imagen1} imagen2={imagen2} imagen3={imagen3}></ImagenCambiable>
+                        </div>
                         <div className="linea-recta-juegos"></div>
                         <h2 className="letras-juegos" id="prueba">Descripcion</h2>
                         <h3 className="letras-juegos">
-                            Red Dead Redemption 2 (RDR2) es un juego de acción y aventura en mundo abierto ambientado en el ocaso del Viejo Oeste.
+                            SteamWorld Dig 2 es un juego de aventuras y plataformas en 2D que sigue a Dorothy, una mecánica que explora un mundo subterráneo lleno de secretos y enemigos. Utilizando habilidades de minería y combate, el juego combina la exploración de cuevas con resolución de acertijos y mejoras de habilidades. Con gráficos bellamente dibujados a mano y un enfoque en la narrativa, ofrece una experiencia emocionante y envolvente en el universo de SteamWorld.
                         </h3>
                     </div>
 
@@ -47,7 +53,7 @@ export function StreamWordlDig2() {
                                 <ul className="">
                                     <li className="lista-general">Version: 1.31</li>
                                     <li className="lista-general">Idiomas: Inglés, Español (Latinoamérica y España), Francés, Alemán, Italiano, Portugués (Brasil), Ruso, Chino simplificado y Japonés</li>
-                                    <li className="lista-general">Fecha de salida: 26 de octubre de 2018</li>
+                                    <li className="lista-general">Fecha de salida: 22/set./2017</li>
                                 </ul>
                                 <ul>
                                     <li className="lista-general">Requisitos</li>
